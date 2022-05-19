@@ -1,0 +1,283 @@
+﻿<UserControl x:Class="LibriSelfCheckoutPOS.Views.CheckOutListAdminView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+        mc:Ignorable="d"
+        xmlns:controls="clr-namespace:LibriSelfCheckoutPOS.Views"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource PrimaryHueLightBrush}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <materialDesign:Card Padding="32" Margin="16"
+                             Grid.ColumnSpan="2">
+            <Image Width="auto" VerticalAlignment="Top" HorizontalAlignment="Right" Height="auto" Source="E:\Download\libri_logo_toshare.png" StretchDirection="Both" Stretch="Uniform" />
+        </materialDesign:Card>
+        <TextBlock  Margin="16"
+                   
+                    VerticalAlignment="Bottom"
+                   FontSize="30">
+            <StackPanel Margin="10 10 10 10" Orientation="Horizontal" Grid.ColumnSpan="2">
+                <materialDesign:PackIcon Kind="Cart" Width="30" Height="30" VerticalAlignment="Center"/>
+                <TextBlock Text="XX db termék"/>
+            </StackPanel>
+            
+           
+        </TextBlock>
+
+        <!--<materialDesign:Card Padding="32" Margin="16"
+                             Grid.Column="0"
+                             Grid.Row="1"
+                             Grid.RowSpan="2"
+                             Grid.ColumnSpan="2"
+                             Background="#f5f4eb">
+        </materialDesign:Card>-->
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      Background="#f5f4eb"
+                      Grid.Row="1"
+                      Margin="16"
+                      Grid.ColumnSpan="2">
+            <ListView Width="1020px" Margin="10,10,10,10" Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top">>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="#">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="1"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Termék">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="Könyv"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Mennyiség">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="3 db"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Cikkszám">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="233252"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Egységár" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="5555 Ft"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Engedmény">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="555 Ft"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Érték">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="5000 Ft"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="tetelterlesBtn"
+            Grid.Row="2"
+            Grid.Column="0"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="T" FontSize="30"/>
+                    <TextBlock Text="étel törlése" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="cikkeresésBtn"
+            Grid.Row="2"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="C" FontSize="30"/>
+                    <TextBlock Text="ikk keresése" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="nyugtamegszakitasBtn"
+            Grid.Row="3"
+            Grid.Column="0"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="Ny" FontSize="30"/>
+                    <TextBlock Text="ugta megszakítása" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="tetelengedmenyBtn"
+            Grid.Row="3"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="T" FontSize="30"/>
+                    <TextBlock Text="ételengedmény adása" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="arfelulirasBtn"
+            Grid.Row="4"
+            Grid.Column="0"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="Á" FontSize="30"/>
+                    <TextBlock Text="r felülírása" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="kodbeirasBtn"
+            Grid.Row="4"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="K" FontSize="30"/>
+                    <TextBlock Text="ód beírása" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            IsEnabled="{Binding PaymentEnabled}"
+            Command="{Binding ClickCommand}"
+            VerticalAlignment="Center"
+            Name="szamlaadasBtn"
+            Grid.Row="5"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Foreground="#e1aa68" Text="E" FontSize="30"/>
+                    <TextBlock Text="gyszerűsített számlaadás" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            VerticalAlignment="Center"
+            Name="mégseBtn"
+            Command="{Binding CancelCommand}"
+            Grid.Row="5"
+            Grid.Column="0"
+            Height="150px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="70"
+            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
+                    <TextBlock Foreground="#FFE16868" Text="V" FontSize="30"/>
+                    <TextBlock Text="issza" FontSize="30"/>
+                </StackPanel>
+            </Label>
+        </Button>
+    </Grid>
+</UserControl>

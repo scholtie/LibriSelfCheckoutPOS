@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AdminView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\BejelentkezesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CheckOutListAdminView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CheckOutListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FizetesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\KezdoKepernyoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PaymentMethodView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PenztarmuveletekAdminView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\BeallitasokView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\BefizetesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\BizonylatokView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\HangeroszabalyzoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\KifizetesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Penztarmuveletek\RovancsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StartView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MessageBoxCustom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\BejelentkezesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CheckOutListAdminView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CheckOutListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FizetesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\KezdoKepernyoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PaymentMethodView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PenztarmuveletekAdminView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\BeallitasokView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\BefizetesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\BizonylatokView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\HangeroszabalyzoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\KifizetesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Penztarmuveletek\RovancsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StartView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

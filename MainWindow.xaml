@@ -1,0 +1,67 @@
+﻿<Window x:Class="LibriSelfCheckoutPOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:LibriSelfCheckoutPOS.ViewModels"
+        xmlns:views="clr-namespace:LibriSelfCheckoutPOS.Views"
+        xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+        mc:Ignorable="d"
+        Title="LibriSelfCheckoutPOS" Height="1000" Width="1080"
+        ResizeMode="NoResize"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:views1="clr-namespace:LibriSelfCheckoutPOS.Views.Penztarmuveletek"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+>
+    <ContentControl Content="{Binding CurrentViewModel}">
+        <ContentControl.Resources>
+            <DataTemplate DataType="{x:Type viewmodels:StartViewModel}">
+                <views:StartView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:CheckOutListViewModel}">
+                <views:CheckOutListView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:KezdoKepernyoViewModel}">
+                <views:KezdoKepernyoView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BejelentkezesViewModel}">
+                <views:BejelentkezesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:CheckOutListAdminViewModel}">
+                <views:CheckOutListAdminView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:AdminViewModel}">
+                <views:AdminView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:PenztarmuveletekAdminViewModel}">
+                <views:PenztarmuveletekAdminView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:FizetesViewModel}">
+                <views:FizetesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BeallitasokViewModel}">
+                <views1:BeallitasokView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BefizetesViewModel}">
+                <views1:BefizetesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BizonylatokViewModel}">
+                <views1:BizonylatokView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:HangeroszabalyzoViewModel}">
+                <views1:HangeroszabalyzoView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:KifizetesViewModel}">
+                <views1:KifizetesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:RovancsViewModel}">
+                <views1:RovancsView/>
+            </DataTemplate>
+        </ContentControl.Resources>
+    </ContentControl>
+</Window>

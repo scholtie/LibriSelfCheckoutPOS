@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\Ertekesitesfunkciok\" />
+    <Folder Include="ViewModels\Penztarmuveletek\" />
+    <Folder Include="Views\Ertekesitesfunkciok\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="LibriSelfCheckoutPOS.Views.BejelentkezesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource PrimaryHueLightBrush}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Grid.RowSpan="10" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <PasswordBox
+                FontSize="100" MinWidth="600" Width="auto" Height="auto" BorderThickness="3"
+                x:Name="PasswordBox"
+                materialDesign:HintAssist.Hint="Jelszó"
+                materialDesign:TextFieldAssist.HasClearButton="False"
+                materialDesign:HintAssist.HelperText="At least 8 characters" />
+        </StackPanel>
+
+        <Button
+            Command="{Binding KezdoKepernyoCommand}"
+            Name="visszáruBtn"
+            Width="500px"
+            HorizontalAlignment="Right"
+            Grid.Row="1"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="200px"
+            FontSize="60"
+            Margin="10 10 10 0"
+            materialDesign:ButtonAssist.CornerRadius="100"
+            Cursor="Arrow" Background="White" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#e1aa68" Text="B"/>
+                    <TextBlock Text="ejelentkezés"/>
+                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="50" Height="50" />
+                </StackPanel>
+            </Label>
+
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            HorizontalAlignment="Left"
+            Name="mégseBtn"
+            Command="{Binding CancelCommand}"
+            Width="500px"
+            Grid.Row="1"
+            Grid.Column="0"
+            Height="200px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="100"
+            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
+                    <TextBlock Foreground="#FFE16868" Text="V"/>
+                    <TextBlock Text="issza"/>
+                </StackPanel>
+            </Label>
+        </Button>
+    </Grid>
+</UserControl>

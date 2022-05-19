@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="LibriSelfCheckoutPOS.Views.Penztarmuveletek.BizonylatokView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource PrimaryHueLightBrush}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            VerticalAlignment="Bottom"
+            Name="mégseBtn"
+            Command="{Binding CancelCommand}"
+            Grid.Row="1"
+            Grid.Column="0"
+            Height="200px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="100"
+            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
+                    <TextBlock Foreground="#FFE16868" Text="V"/>
+                    <TextBlock Text="issza"/>
+                </StackPanel>
+            </Label>
+        </Button>
+    </Grid>
+</UserControl>
