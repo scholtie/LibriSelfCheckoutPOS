@@ -9,8 +9,8 @@ namespace LibriSelfCheckoutPOS.Services
 {
     public class CommandHandler : ICommand
     {
-        private Action _action;
-        private Func<bool> _canExecute;
+        private readonly Action _action;
+        private readonly Func<bool> _canExecute;
 
         /// <summary>
         /// Creates instance of the command handler

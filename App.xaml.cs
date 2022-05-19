@@ -125,7 +125,7 @@ private CheckOutListViewModel CreateMakeCheckOutListViewModel()
 
         private BeallitasokViewModel CreateBeallitasokViewModel()
         {
-            return new BeallitasokViewModel(new NavigationService(_navigationStore, CreateCheckOutListViewModel),
+            return new BeallitasokViewModel(new NavigationService(_navigationStore, CreatePenztarmuveletekAdminViewModel),
                 new NavigationService(_navigationStore, CreateKezdoKepernyoViewModel));
         }
 

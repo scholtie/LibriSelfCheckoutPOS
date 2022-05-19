@@ -94,3 +94,6 @@ E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\ne
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\ref\LibriSelfCheckoutPOS.dll
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\FizetesView.g.cs
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\FizetesView.baml
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Resources\StringResource.de.baml
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Resources\StringResource.en.baml
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Resources\StringResources.baml

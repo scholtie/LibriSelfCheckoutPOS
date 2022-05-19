@@ -125,7 +125,7 @@
         </ScrollViewer>
         <Button Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
-                <TextBlock Text="Segítségkérés" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock Text="{Binding getHelp}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>

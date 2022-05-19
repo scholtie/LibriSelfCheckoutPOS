@@ -12,7 +12,6 @@
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
-        Height="1920" Width="1080"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
     <Grid>

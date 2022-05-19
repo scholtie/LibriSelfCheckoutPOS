@@ -11,6 +11,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
 {
     internal class FizetesViewModel : ViewModelBase
     {
+        public string getHelp = "Segítségkérés";
         public ICommand CancelCommand { get; }
         public FizetesViewModel(NavigationService cancelNavigationService)
         {

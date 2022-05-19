@@ -60,6 +60,15 @@
     <Page Update="MessageBoxCustom.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\StringResource.de.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\StringResource.en.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\StringResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\AdminView.xaml">
       <SubType>Designer</SubType>
     </Page>
