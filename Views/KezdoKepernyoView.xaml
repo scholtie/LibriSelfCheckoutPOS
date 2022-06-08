@@ -14,6 +14,14 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
 
         <Grid.RowDefinitions>
@@ -36,12 +44,9 @@
             Grid.Row="0"
             Grid.Column="0"
             Grid.ColumnSpan="4"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="B"/>
@@ -55,12 +60,9 @@
             Grid.Row="1"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="N"/>
@@ -74,12 +76,9 @@
             Grid.Row="1"
             Grid.Column="2"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="N"/>
@@ -93,12 +92,9 @@
             Grid.Row="2"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="K"/>
@@ -112,12 +108,9 @@
             Grid.Row="2"
             Grid.Column="2"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="E"/>
@@ -131,12 +124,9 @@
             Grid.Row="3"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="B"/>
@@ -150,12 +140,9 @@
             Grid.Row="3"
             Grid.Column="2"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="200px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="White" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Foreground="#e1aa68" Text="K"/>

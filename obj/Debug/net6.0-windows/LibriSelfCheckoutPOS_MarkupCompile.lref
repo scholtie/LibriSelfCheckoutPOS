@@ -5,6 +5,7 @@ FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Admin
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\BejelentkezesView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\CheckOutListAdminView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\CheckOutListView.xaml;;
+FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\FizetesView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\KezdoKepernyoView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\PaymentMethodView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\PenztarmuveletekAdminView.xaml;;
@@ -15,5 +16,4 @@ FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Penzt
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Penztarmuveletek\KifizetesView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Penztarmuveletek\RovancsView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\StartView.xaml;;
-FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\FizetesView.xaml;;
 

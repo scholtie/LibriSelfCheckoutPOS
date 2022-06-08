@@ -5,5 +5,18 @@ xmlns:system="clr-namespace:System;assembly=mscorlib">
 
     <system:String x:Key="back">Back</system:String>
     <system:String x:Key="login">Login</system:String>
+    <system:String x:Key="help">Help</system:String>
+    <system:String x:Key="pay">Pay</system:String>
+    <system:String x:Key="language">Language</system:String>
+    <system:String x:Key="product">Product</system:String>
+    <system:String x:Key="quantity">Quantity</system:String>
+    <system:String x:Key="articlenumber">Nr.</system:String>
+    <system:String x:Key="unitprice">Unit Price</system:String>
+    <system:String x:Key="discount">Discount</system:String>
+    <system:String x:Key="value">Value</system:String>
+    <system:String x:Key="card">Credit Card</system:String>
+    <system:String x:Key="otpcaf">OTP Cafateria</system:String>
+    <system:String x:Key="giftcard">Gift Card</system:String>
+    <system:String x:Key="pointexchange">Point exchange</system:String>
     <!-- All StringResources Goes Here -->
 </ResourceDictionary> 

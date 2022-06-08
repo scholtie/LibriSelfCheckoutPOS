@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
         mc:Ignorable="d"
-             
         xmlns:controls="clr-namespace:LibriSelfCheckoutPOS.Views"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -14,14 +13,23 @@
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
-        FontFamily="{DynamicResource MaterialDesignFont}">
-    <Grid>
+        FontFamily="{DynamicResource MaterialDesignFont}"
+             Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid TextCompositionManager.TextInput="grid_TextInput">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="4*"/>
             <RowDefinition Height="4*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -44,21 +52,21 @@
                 <TextBlock
                 FontSize="50"
     Margin="20 20 20 20"
-    Text="Könyv" />
+    Text="{Binding ProductNameCurrent}" />
                 <TextBlock
                 FontSize="30"
     Margin="20 20 20 20"
-    Text="233252" />
+    Text="{Binding ProductArticleNumberCurrent}" />
                 <TextBlock
                 FontSize="50"
     Margin="20 20 20 20"
-    Text="5555 Ft" />
+    Text="{Binding ProductPriceCurrent}" />
             </StackPanel>
         </materialDesign:Card>
-        
+
         <materialDesign:Card Padding="32" Margin="16"
                              Grid.ColumnSpan="2">
-            <Image Width="auto" VerticalAlignment="Top" HorizontalAlignment="Right" Height="auto" Source="E:\Download\libri_logo_toshare.png" StretchDirection="Both" Stretch="Uniform" />
+            <Image Width="auto" VerticalAlignment="Top" HorizontalAlignment="Right" Height="auto" Source="//Templates/Libri/Assets/logo.png" StretchDirection="Both" Stretch="Uniform" />
         </materialDesign:Card>
         <TextBlock  Margin="16"
                    
@@ -66,7 +74,8 @@
                    FontSize="30">
             <StackPanel Margin="10 10 10 10" Orientation="Horizontal" Grid.ColumnSpan="2">
                 <materialDesign:PackIcon Kind="Cart" Width="30" Height="30" VerticalAlignment="Center"/>
-                <TextBlock Text="XX db termék"/>
+                <TextBlock Text="{Binding CheckoutQuantity}"/>
+                <TextBlock Text=" db termék"/>
             </StackPanel>
             
            
@@ -84,71 +93,42 @@
                       Grid.Row="1"
                       Margin="16"
                       Grid.ColumnSpan="2">
-            <ListView Width="1020px" Margin="10,10,10,10" Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top">>
+            <ListView Margin="10" Name="lvDataBinding" FontSize="35">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="#">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="1"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Termék">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="Könyv"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Mennyiség">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="3 db"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Cikkszám">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="233252"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Egységár" >
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Engedmény">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Érték">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5000 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
+                        <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
+                        <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
+                        <GridViewColumn Header="UnitPrice" Width="220" DisplayMemberBinding="{Binding productUnitPrice}" />
+                        <GridViewColumn Header="Discount" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
+                        <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
                     </GridView>
-  </ListView.View>
+                </ListView.View>
+                <!--<ListView.ItemContainerStyle>
+                </ListView.ItemContainerStyle>-->
             </ListView>
         </ScrollViewer>
+        <!--<StackPanel
+            Grid.Row="0"
+            Grid.Column="0"
+            FocusManager.FocusedElement="{Binding ElementName=Box}">
+            <TextBox Name="Box" />
+        </StackPanel>-->
         <Button Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
-            <StackPanel>
+            <!--<StackPanel>
                 <TextBlock Text="Segítségkérés" HorizontalAlignment="Center" FontSize="18"/>
-                <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
-            </StackPanel>
+                
+            </StackPanel>-->
+            <Label>
+                <StackPanel>
+                    <TextBlock Text="{DynamicResource help}" HorizontalAlignment="Center" FontSize="18"/>
+                    <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
+                </StackPanel>
+            </Label>
         </Button>
-        <Button Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Click="closeWindow" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
-                <TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>
+                <!--<TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>-->
+                <TextBlock Text="{DynamicResource language}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="BookAlphabet" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
@@ -158,14 +138,15 @@
             VerticalAlignment="Bottom"
             Name="visszáruBtn"
             Grid.Row="4"
-            Grid.Column="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
             Style="{StaticResource MaterialDesignRaisedLightButton}"
             Height="100px"
             FontSize="40"
             Margin="10 10 10 10"
             materialDesign:ButtonAssist.CornerRadius="30"
             Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
-            <Label>
+            <!--<Label>
                 <StackPanel Orientation="Horizontal"
                             >
                     <TextBlock Foreground="#e1aa68" Text="F" FontSize="30"/>
@@ -174,9 +155,24 @@
                     <TextBlock Text=" Ft" FontSize="30"/>
                     <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="35" Height="35" />
                 </StackPanel>
+            </Label>-->
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock FontSize="30" Text="{DynamicResource pay}">
+                        <TextBlock.TextEffects>
+                            <TextEffect PositionStart="0" PositionCount="1" Foreground="#e1aa68"/>
+                        </TextBlock.TextEffects>
+                    </TextBlock>
+                    <TextBlock Text=" " FontSize="30"/>
+                    <TextBlock Text="{Binding PriceSum}" FontSize="30"/>
+                    <TextBlock Text=" Ft" FontSize="30"/>
+                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="35" Height="35" />
+                </StackPanel>
             </Label>
+            
         </Button>
-        <Button
+        <!--<Button
             Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
             VerticalAlignment="Bottom"
             Name="mégseBtn"
@@ -192,10 +188,13 @@
                 <StackPanel Orientation="Horizontal"
                             >
                     <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
-                    <TextBlock Foreground="#FFE16868" Text="M" FontSize="30"/>
-                    <TextBlock Text="égsem" FontSize="30"/>
+                    <TextBlock FontSize="30" Text="{DynamicResource back}">
+                        <TextBlock.TextEffects>
+                            <TextEffect PositionStart="0" PositionCount="1" Foreground="#FFE16868"/>
+                        </TextBlock.TextEffects>
+                    </TextBlock>
                 </StackPanel>
             </Label>
-        </Button>
+        </Button>-->
     </Grid>
 </UserControl>

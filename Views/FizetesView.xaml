@@ -15,6 +15,14 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -67,58 +75,14 @@
                       Grid.Row="1"
                       Margin="16"
                       Grid.ColumnSpan="2">
-            <ListView Width="1020px" Margin="10,10,10,10" Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top">>
+            <ListView Margin="10" Name="lvDataBinding">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="#">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="1"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Termék">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="Könyv"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Mennyiség">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="3 db"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Cikkszám">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="233252"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Egységár" >
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Engedmény">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Érték">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5000 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
+                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Nr" Width="100" DisplayMemberBinding="{Binding ArticleNumber}" />
+                        <GridViewColumn Header="UnitPrice" Width="150" DisplayMemberBinding="{Binding UnitPrice}" />
+                        <GridViewColumn Header="Discount" Width="150" DisplayMemberBinding="{Binding Discount}" />
+                        <GridViewColumn Header="Value" Width="150" DisplayMemberBinding="{Binding Value}" />
                     </GridView>
                 </ListView.View>
             </ListView>
@@ -129,14 +93,14 @@
                 <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
-        <Button Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Command="{Binding LanguageCommand}" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="BookAlphabet" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
         <Button
-            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            Style="{StaticResource Libri-button-back}"
             VerticalAlignment="Bottom"
             Name="mégseBtn"
             Command="{Binding CancelCommand}"
@@ -144,9 +108,7 @@
             Grid.Column="0"
             Height="100px"
             FontSize="40"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="30"
-            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            Margin="10 10 10 10">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -156,5 +118,11 @@
                 </StackPanel>
             </Label>
         </Button>
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="1"
+            FocusManager.FocusedElement="{Binding ElementName=Box}">
+            <TextBox Name="Box" />
+        </StackPanel>
     </Grid>
 </UserControl>

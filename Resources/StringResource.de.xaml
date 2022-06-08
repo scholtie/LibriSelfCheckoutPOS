@@ -3,7 +3,20 @@
 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
 xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <system:String x:Key="back">Schließung</system:String>
-    <system:String x:Key="login">Anmeldung</system:String>
+    <system:String x:Key="back">Back</system:String>
+    <system:String x:Key="login">Login</system:String>
+    <system:String x:Key="help">Segítségkérés</system:String>
+    <system:String x:Key="pay">Fizetés</system:String>
+    <system:String x:Key="language">Nyelvválasztás</system:String>
+    <system:String x:Key="product">Termék</system:String>
+    <system:String x:Key="quantity">Mennyiség</system:String>
+    <system:String x:Key="articlenumber">Cikkszám</system:String>
+    <system:String x:Key="unitprice">Egységár</system:String>
+    <system:String x:Key="discount">Engedmény</system:String>
+    <system:String x:Key="value">Érték</system:String>
+    <system:String x:Key="card">Bankkártya</system:String>
+    <system:String x:Key="otpcaf">OTP Cafateria</system:String>
+    <system:String x:Key="giftcard">Ajandékkártya</system:String>
+    <system:String x:Key="pointexchange">Pontbeváltás</system:String>
     <!-- All StringResources Goes Here -->
 </ResourceDictionary> 

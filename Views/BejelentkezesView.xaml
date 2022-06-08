@@ -45,11 +45,11 @@
             materialDesign:ButtonAssist.CornerRadius="100"
             Cursor="Arrow" Background="White" BorderBrush="White">
             <Label>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Foreground="#e1aa68" Text="B"/>
-                    <TextBlock Text="ejelentkezés"/>
-                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="50" Height="50" />
-                </StackPanel>
+                <TextBlock Text="{DynamicResource login}">
+                    <TextBlock.TextEffects>
+                        <TextEffect PositionStart="0" PositionCount="1" Foreground="#e1aa68"/>
+                    </TextBlock.TextEffects>
+                </TextBlock>
             </Label>
 
         </Button>
@@ -67,12 +67,11 @@
             materialDesign:ButtonAssist.CornerRadius="100"
             Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
             <Label>
-                <StackPanel Orientation="Horizontal"
-                            >
-                    <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
-                    <TextBlock Foreground="#FFE16868" Text="V"/>
-                    <TextBlock Text="issza"/>
-                </StackPanel>
+                <TextBlock Text="{DynamicResource back}">
+                    <TextBlock.TextEffects>
+                        <TextEffect PositionStart="0" PositionCount="1" Foreground="#FFE16868"/>
+                    </TextBlock.TextEffects>
+                </TextBlock>
             </Label>
         </Button>
     </Grid>

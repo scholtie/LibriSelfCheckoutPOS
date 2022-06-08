@@ -13,6 +13,14 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -27,7 +35,7 @@
         </Grid.ColumnDefinitions>
         <materialDesign:Card Padding="32" Margin="16"
                              Grid.ColumnSpan="3">
-            <Image Width="auto" Height="auto" Source="E:\Download\libri_logo_toshare.png" StretchDirection="Both" Stretch="Uniform" />
+            <Image Width="auto" Height="auto" Style="{StaticResource Libri-img}" Source="//Templates/Libri/Assets/logo.png" StretchDirection="Both" Stretch="Uniform" />
         </materialDesign:Card>
         <StackPanel Orientation="Vertical"
                     Grid.Column="0"
@@ -44,20 +52,19 @@
             Name="visszáruBtn"
             Grid.Row="2"
             Grid.Column="1"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
             Height="200px"
             FontSize="60"
+            Style="{StaticResource Libri-button}"
             Margin="10 10 10 0"
             materialDesign:ButtonAssist.CornerRadius="100"
             Cursor="Arrow" Background="White" BorderBrush="White">
-            <Label>
+            <Label Style="{StaticResource Libri-button-label}">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Foreground="#e1aa68" Text="B"/>
-                    <TextBlock Text="ejelentkezés"/>
+                    <TextBlock Text="Bejelentkezés"/>
                     <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="50" Height="50" />
                 </StackPanel>
             </Label>
-            
+
         </Button>
     </Grid>
 </UserControl>

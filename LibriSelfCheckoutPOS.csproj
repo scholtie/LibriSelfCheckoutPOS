@@ -9,13 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.14" />
     <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Templates\Libri\Assets\" />
     <Folder Include="ViewModels\Ertekesitesfunkciok\" />
     <Folder Include="ViewModels\Penztarmuveletek\" />
     <Folder Include="Views\Ertekesitesfunkciok\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

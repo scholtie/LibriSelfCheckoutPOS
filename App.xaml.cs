@@ -1,15 +1,8 @@
 ﻿using LibriSelfCheckoutPOS.Services;
 using LibriSelfCheckoutPOS.Stores;
 using LibriSelfCheckoutPOS.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using log4net;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace LibriSelfCheckoutPOS
@@ -21,11 +14,13 @@ namespace LibriSelfCheckoutPOS
     {
         private readonly NavigationStore _navigationStore;
 
+        ILog log = LogManager.GetLogger(typeof(App));
+
         public App()
         {
             _navigationStore = new NavigationStore();
         }
-        
+
 
         protected override void OnStartup(StartupEventArgs e)
         {
@@ -38,25 +33,26 @@ namespace LibriSelfCheckoutPOS
             MainWindow.Show();
 
             base.OnStartup(e);
+
+            log.Debug("Initialising ...");
         }
 
-        
-public static bool HasTouchInput()
-{
-    foreach (TabletDevice tabletDevice in Tablet.TabletDevices)
-    {
-        //Only detect if it is a touch Screen not how many touches (i.e. Single touch or Multi-touch)
-        if (tabletDevice.Type == TabletDeviceType.Touch)
-            return true;
-    }
 
-    return false;
-}
+        public static bool HasTouchInput()
+        {
+            foreach (TabletDevice tabletDevice in Tablet.TabletDevices)
+            {
+                //Only detect if it is a touch Screen not how many touches (i.e. Single touch or Multi-touch)
+                if (tabletDevice.Type == TabletDeviceType.Touch)
+                    return true;
+            }
 
-private CheckOutListViewModel CreateMakeCheckOutListViewModel()
+            return false;
+        }
+
+        private CheckOutListViewModel CreateMakeCheckOutListViewModel()
         {
             return new CheckOutListViewModel(
-                new NavigationService(_navigationStore, CreateCheckOutListViewModel),
                 new NavigationService(_navigationStore, CreateAdminViewModel),
                 new NavigationService(_navigationStore, CreateFizetesViewModel));
         }
@@ -70,7 +66,7 @@ private CheckOutListViewModel CreateMakeCheckOutListViewModel()
         private AdminViewModel CreateAdminViewModel()
         {
             return new AdminViewModel(
-                new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel), 
+                new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel),
                 new NavigationService(_navigationStore, CreateCheckOutListAdminViewModel),
                 new NavigationService(_navigationStore, CreatePenztarmuveletekAdminViewModel));
         }

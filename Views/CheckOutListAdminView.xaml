@@ -14,6 +14,14 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -118,12 +126,9 @@
             Name="tetelterlesBtn"
             Grid.Row="2"
             Grid.Column="0"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -139,12 +144,9 @@
             Name="cikkeresésBtn"
             Grid.Row="2"
             Grid.Column="1"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -160,12 +162,9 @@
             Name="nyugtamegszakitasBtn"
             Grid.Row="3"
             Grid.Column="0"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -181,12 +180,9 @@
             Name="tetelengedmenyBtn"
             Grid.Row="3"
             Grid.Column="1"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -202,12 +198,9 @@
             Name="arfelulirasBtn"
             Grid.Row="4"
             Grid.Column="0"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -223,12 +216,9 @@
             Name="kodbeirasBtn"
             Grid.Row="4"
             Grid.Column="1"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -244,12 +234,9 @@
             Name="szamlaadasBtn"
             Grid.Row="5"
             Grid.Column="1"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -259,17 +246,14 @@
             </Label>
         </Button>
         <Button
-            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
             VerticalAlignment="Center"
             Name="mégseBtn"
             Command="{Binding CancelCommand}"
             Grid.Row="5"
             Grid.Column="0"
+            Style="{StaticResource Libri-button-back}"
             Height="150px"
-            FontSize="60"
-            Margin="10 10 10 10"
-            materialDesign:ButtonAssist.CornerRadius="70"
-            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            FontSize="60">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >

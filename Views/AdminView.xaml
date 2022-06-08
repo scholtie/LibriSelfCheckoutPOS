@@ -17,6 +17,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -78,6 +79,25 @@
                     <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
                     <TextBlock Foreground="#FFE16868" Text="V"/>
                     <TextBlock Text="issza"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            VerticalAlignment="Bottom"
+            Name="bezarasBtn"
+            Command="{Binding CloseCommand}"
+            Grid.Row="2"
+            Grid.Column="0"
+            Height="200px"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="100"
+            Cursor="Arrow" Background="#FFFF5F5F" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock Text="Kilépés az alkalmazásból"/>
                 </StackPanel>
             </Label>
         </Button>

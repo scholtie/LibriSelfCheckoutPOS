@@ -1,12 +1,13 @@
 ﻿using LibriSelfCheckoutPOS.Commands;
 using LibriSelfCheckoutPOS.Services;
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Windows.Input;
 
 namespace LibriSelfCheckoutPOS.ViewModels
 {
-    internal class CheckOutListViewModel : ViewModelBase
+    internal class CheckOutListViewModel : ViewModelBase, INotifyPropertyChanged
     {
 
         private ICommand _clickCommand;
@@ -53,14 +54,13 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         }
 
-        public ICommand CancelCommand { get; }
         public ICommand AdminCommand { get; }
         public ICommand FizetesCommand { get; }
-        public CheckOutListViewModel(NavigationService startViewNavigationService, NavigationService adminViewNavigationService, NavigationService fizetesViewNavigationService)
+        public CheckOutListViewModel(NavigationService adminViewNavigationService, NavigationService fizetesViewNavigationService)
         {
-            CancelCommand = new NavigateCommand(startViewNavigationService);
             AdminCommand = new NavigateCommand(adminViewNavigationService);
             FizetesCommand = new NavigateCommand(fizetesViewNavigationService);
         }
+
     }
 }
