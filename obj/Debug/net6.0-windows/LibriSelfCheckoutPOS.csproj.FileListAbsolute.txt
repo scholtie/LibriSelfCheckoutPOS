@@ -101,3 +101,5 @@ E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\ne
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Templates\Libri\Style.baml
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\log4net.config
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\LibriSelfCheckoutPOS.dll.config
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\PromocioIdleView.g.cs
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\PromocioIdleView.baml

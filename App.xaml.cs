@@ -134,5 +134,10 @@ namespace LibriSelfCheckoutPOS
         {
             return new FizetesViewModel(new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel));
         }
+
+        private PromocioIdleViewModel CreatePromocioIdleViewModel()
+        {
+            return new PromocioIdleViewModel(new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel));
+        }
     }
 }

@@ -49,6 +49,9 @@
     <Compile Update="Views\Penztarmuveletek\RovancsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\PromocioIdleView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\StartView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -109,6 +112,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Penztarmuveletek\RovancsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PromocioIdleView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\StartView.xaml">

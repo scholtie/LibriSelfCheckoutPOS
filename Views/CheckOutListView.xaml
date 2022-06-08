@@ -93,7 +93,7 @@
                       Grid.Row="1"
                       Margin="16"
                       Grid.ColumnSpan="2">
-            <ListView Margin="10" Name="lvDataBinding" FontSize="35">
+            <ListView Margin="10" Name="lvDataBinding" ItemsSource="{Binding products}" FontSize="35">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />

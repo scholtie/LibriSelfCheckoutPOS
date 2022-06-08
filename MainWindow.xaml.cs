@@ -25,7 +25,7 @@ namespace LibriSelfCheckoutPOS
         {
             InitializeComponent();
             SetLanguageDictionary("en");
-            Topmost = true;
+            //Topmost = true;
         }
 
         public void SetLanguageDictionary(String language)

@@ -64,6 +64,9 @@
             <DataTemplate DataType="{x:Type viewmodels:RovancsViewModel}">
                 <views1:RovancsView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:PromocioIdleViewModel}">
+                <views:PromocioIdleView/>
+            </DataTemplate>
         </ContentControl.Resources>
     </ContentControl>
 </Window>
