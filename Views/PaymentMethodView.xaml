@@ -14,6 +14,14 @@
         Width="1080"
         Background="{DynamicResource PrimaryHueLightBrush}"
         FontFamily="{DynamicResource MaterialDesignFont}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\\Templates\Libri\style.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -22,27 +30,20 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Height="150" Margin="10 10 10 10" Grid.Column="1" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
-            <StackPanel>
-                <TextBlock Text="OTP Cafateria" HorizontalAlignment="Center" FontSize="18"/>
-                <materialDesign:PackIcon Kind="Cash" HorizontalAlignment="Center" Width="50" Height="50"/>
-            </StackPanel>
-        </Button>
-        <Button Height="150" Margin="10 10 10 10" Grid.Column="0" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="0" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Bankkártya" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="CreditCard" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
-        <Button Height="150" Margin="10 10 10 10" Grid.Column="2" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button IsEnabled="False" Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="1" Grid.Row="0" Background="#FF373737" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Ajándékkártya" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="WalletGiftcard" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
-        <Button Height="150" Margin="10 10 10 10" Grid.Column="3" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button IsEnabled="False" Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="3" Grid.Row="0" Background="#FF373737" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Pontbeváltás" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="TicketPercentOutline" HorizontalAlignment="Center" Width="50" Height="50"/>

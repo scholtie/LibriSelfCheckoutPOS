@@ -16,6 +16,7 @@
   <ItemGroup>
     <Folder Include="Templates\Libri\Assets\" />
     <Folder Include="ViewModels\Ertekesitesfunkciok\" />
+    <Folder Include="ViewModels\NyitokepernyoMuveletek\" />
     <Folder Include="ViewModels\Penztarmuveletek\" />
     <Folder Include="Views\Ertekesitesfunkciok\" />
   </ItemGroup>

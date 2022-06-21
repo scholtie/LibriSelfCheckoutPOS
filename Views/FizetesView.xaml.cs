@@ -26,7 +26,7 @@ namespace LibriSelfCheckoutPOS.Views
         public FizetesView()
         {
             InitializeComponent();
-            Box.KeyDown += new KeyEventHandler(tb_KeyDown);
+            //Box.KeyDown += new KeyEventHandler(tb_KeyDown);
             //SearchProduct();
             List<Item> items = new List<Item>();
             items.Add(new Item() { Name = "Könyv1", ArticleNumber=43242, UnitPrice= 4599, Discount=300, Value=4299 });
@@ -60,6 +60,11 @@ namespace LibriSelfCheckoutPOS.Views
             file.Close();
         }
 
+        private void OnManipulationBoundaryFeedback(object sender, ManipulationBoundaryFeedbackEventArgs e)
+        {
+            e.Handled = true;
+        }
+
         //private void txtAssetTag_KeyPress(object sender, KeyEventArgs e)
 
         //{
@@ -68,16 +73,16 @@ namespace LibriSelfCheckoutPOS.Views
         //    SearchProduct(barcode);
 
         //}
-        
 
-        private void tb_KeyDown(object sender, KeyEventArgs e)
-        {
-            barcode = Box.Text;
-            if (e.Key == Key.Enter)
-            {
-                SearchProduct(barcode);
-            }
-        }
+
+        //private void tb_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    barcode = Box.Text;
+        //    if (e.Key == Key.Enter)
+        //    {
+        //        SearchProduct(barcode);
+        //    }
+        //}
 
         public class Item
         {

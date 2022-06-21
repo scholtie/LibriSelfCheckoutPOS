@@ -1,34 +1,1622 @@
-2022-06-08 10:22:48,091 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:22:51,223 [9] DEBUG LibriSelfCheckoutPOS.App - 110
-2022-06-08 10:24:40,840 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:24:42,378 [1] DEBUG LibriSelfCheckoutPOS.App - 16
-2022-06-08 10:24:55,101 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:24:57,442 [1] DEBUG LibriSelfCheckoutPOS.App - 15
-2022-06-08 10:25:10,496 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:25:13,374 [1] DEBUG LibriSelfCheckoutPOS.App - 31
-2022-06-08 10:48:16,148 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:48:17,916 [10] DEBUG LibriSelfCheckoutPOS.App - 0
-2022-06-08 10:48:35,370 [1] DEBUG LibriSelfCheckoutPOS.App - System
-2022-06-08 10:48:35,451 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
-2022-06-08 10:50:29,336 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:50:36,683 [9] DEBUG LibriSelfCheckoutPOS.App - 0
-2022-06-08 10:51:38,628 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:51:39,993 [6] DEBUG LibriSelfCheckoutPOS.App - 15
-2022-06-08 10:52:14,040 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:52:15,775 [6] DEBUG LibriSelfCheckoutPOS.App - csao
-2022-06-08 10:53:33,977 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:53:38,267 [6] DEBUG LibriSelfCheckoutPOS.App - 16
-2022-06-08 10:53:57,855 [1] DEBUG LibriSelfCheckoutPOS.App - System
-2022-06-08 10:53:57,916 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
-2022-06-08 10:54:29,428 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:54:30,787 [10] DEBUG LibriSelfCheckoutPOS.App - 0
-2022-06-08 10:56:29,792 [1] DEBUG LibriSelfCheckoutPOS.App - System
-2022-06-08 10:56:29,881 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
-2022-06-08 10:57:14,484 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:57:16,256 [6] DEBUG LibriSelfCheckoutPOS.App - test
-2022-06-08 10:57:28,938 [1] DEBUG LibriSelfCheckoutPOS.App - System
-2022-06-08 10:57:29,064 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
-2022-06-08 10:58:29,199 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 10:58:31,590 [6] DEBUG LibriSelfCheckoutPOS.App - test
-2022-06-08 10:58:58,933 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
-2022-06-08 11:43:12,283 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:40:30,119 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:40:33,603 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:40:33,814 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:33,815 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:40:33,820 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:33,953 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:34,164 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:34,164 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:34,168 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:34,289 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:40:34,465 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:34,465 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:40:34,470 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:34,561 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:40:35,060 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:35,104 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:35,306 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:35,306 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:40:35,309 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:35,393 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:40:35,570 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:35,570 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 13:40:35,574 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:35,713 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:40:35,873 [1] DEBUG LibriSelfCheckoutPOS.App - {}
+2022-06-20 13:40:35,873 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 13:40:35,878 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:35,969 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:42,017 [1] DEBUG LibriSelfCheckoutPOS.App - 21
+2022-06-20 13:40:42,017 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:40:42,192 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:42,214 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:40:42,214 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 13:40:42,219 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:42,465 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:42,465 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:40:42,592 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:42,610 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:40:42,610 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 13:40:42,613 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:40:47,953 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:40:47,954 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:40:48,455 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:40:48,456 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:40:48,503 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystem
+2022-06-20 13:40:48,503 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystem
+2022-06-20 13:40:48,534 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystem
+2022-06-20 13:40:48,534 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystem
+2022-06-20 13:40:48,563 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystem
+2022-06-20 13:40:48,563 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystem
+2022-06-20 13:40:48,595 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,595 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,626 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,626 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,657 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,657 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,687 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,687 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,732 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,732 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,763 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,763 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,794 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,794 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,824 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,825 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,857 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,857 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,888 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,888 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,923 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,923 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,951 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,951 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,996 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:48,996 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,029 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,029 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,089 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,089 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,119 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,120 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,150 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,150 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,181 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,181 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,228 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,228 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,249 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:40:49,249 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystemSystem
+2022-06-20 13:42:25,128 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:42:27,706 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:27,881 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:42:27,882 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:27,887 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:28,000 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:28,181 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:42:28,181 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:28,184 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:28,321 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:42:28,467 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 13:42:28,467 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:28,472 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:28,576 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:28,756 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710, 0MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:42:28,756 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:28,760 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:28,832 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:29,009 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:42:29,009 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:29,014 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:35,441 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:35,441 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:35,553 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:35,573 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:42:35,573 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:35,578 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:35,728 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:35,729 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:35,840 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:35,859 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:42:35,859 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:35,863 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,000 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:42:36,000 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:42:36,128 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,146 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 13:42:36,146 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:36,151 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,240 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:36,241 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:42:36,368 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,387 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710, 0MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:42:36,387 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:36,390 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,464 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:36,465 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:36,608 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:36,625 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 1 30-DB-OS "L", 70706, 374710, 0MIESKO 1DB KAVE, 73354, 596910, 0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:42:36,625 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:42:36,629 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:42:37,217 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:42:37,217 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:42:37,427 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:42:37,427 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:43:16,754 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:43:19,330 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:19,451 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:19,452 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:19,457 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:19,635 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:19,763 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:43:19,763 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:19,767 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:19,952 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:20,082 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:20,082 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:43:20,088 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:20,240 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:20,356 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:43:20,356 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:43:20,360 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:23,265 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:23,265 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:23,360 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:23,381 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:23,381 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 13:43:23,386 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:23,696 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:23,696 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:23,776 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:23,796 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:43:23,796 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 13:43:23,799 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,096 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:43:24,097 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:43:24,160 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,177 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 13:43:24,177 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 13:43:24,182 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,384 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:24,384 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:43:24,480 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,498 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:43:24,498 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 13:43:24,502 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,640 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:24,641 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:24,736 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:24,753 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:24,753 [1] DEBUG LibriSelfCheckoutPOS.App - 9
+2022-06-20 13:43:24,757 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:28,336 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:28,337 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:28,434 [1] DEBUG LibriSelfCheckoutPOS.App - 1RightShift
+2022-06-20 13:43:28,434 [1] DEBUG LibriSelfCheckoutPOS.App - 1RightShift
+2022-06-20 13:43:28,768 [1] DEBUG LibriSelfCheckoutPOS.App - 1RightShift1
+2022-06-20 13:43:28,768 [1] DEBUG LibriSelfCheckoutPOS.App - 1RightShift1
+2022-06-20 13:43:28,912 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:29,267 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:29,312 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:29,312 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:29,440 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:29,461 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:29,462 [1] DEBUG LibriSelfCheckoutPOS.App - 10
+2022-06-20 13:43:29,466 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:29,520 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:29,520 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:29,680 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:29,697 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:29,697 [1] DEBUG LibriSelfCheckoutPOS.App - 11
+2022-06-20 13:43:29,702 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:30,016 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:30,016 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:43:30,096 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:30,113 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10TOJAS 10 DB-OS, 70707, 46047010, 11TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:43:30,113 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 13:43:30,117 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:43:37,681 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:43:37,681 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:43:37,681 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:43:37,777 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:43:37,777 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:43:37,777 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:44:22,605 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:44:26,682 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:44:26,897 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:44:26,898 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:44:26,903 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:27,120 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:27,378 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:27,378 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:27,382 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:27,776 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:27,986 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:27,986 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:44:27,989 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:28,208 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:28,421 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:28,421 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:44:28,424 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:31,441 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:31,442 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:31,728 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:31,749 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3MIESKO 1DB KAVE, 73354, 596910, 4MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:31,749 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 13:44:31,752 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:32,896 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:32,896 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:33,024 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:33,043 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3MIESKO 1DB KAVE, 73354, 596910, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:33,043 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 13:44:33,047 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:33,392 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:33,392 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:44:33,472 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:33,491 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3MIESKO 1DB KAVE, 73354, 596910, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:44:33,491 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 13:44:33,494 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:44:49,073 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:44:49,073 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:44:49,297 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:44:49,297 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:49:04,125 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:49:08,307 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:08,413 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:49:08,415 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:08,420 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:08,506 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:08,636 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:49:08,636 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:08,639 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:11,802 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:11,802 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:11,946 [1] DEBUG LibriSelfCheckoutPOS.App - 1Oem5
+2022-06-20 13:49:11,946 [1] DEBUG LibriSelfCheckoutPOS.App - 1Oem5
+2022-06-20 13:49:12,906 [1] DEBUG LibriSelfCheckoutPOS.App - 1Oem51
+2022-06-20 13:49:12,906 [1] DEBUG LibriSelfCheckoutPOS.App - 1Oem51
+2022-06-20 13:49:12,985 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:13,749 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:13,993 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:13,994 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:14,153 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:14,175 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:49:14,175 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:49:14,179 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:14,681 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:14,682 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:14,793 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:14,811 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:49:14,811 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:49:14,815 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:15,194 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:15,194 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:15,305 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:15,323 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:49:15,323 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 13:49:15,327 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,154 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:18,154 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:18,154 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:49:18,265 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,265 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,288 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:49:18,288 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 13:49:18,291 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,633 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:49:18,634 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:49:18,634 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:49:18,713 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,713 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:18,731 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 13:49:18,731 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 13:49:18,736 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:19,225 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:19,225 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:19,225 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:49:19,305 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:19,305 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:19,322 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 1 30-DB-OS "L", 70706, 374710, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:49:19,322 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 13:49:19,327 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:49:39,081 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:49:39,081 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:49:39,081 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:49:39,145 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:49:39,145 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:49:39,145 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:53:16,712 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 13:53:19,470 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:53:19,587 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:53:19,588 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:53:19,593 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:19,668 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:19,783 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:53:19,783 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:19,787 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,069 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:34,069 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:34,147 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,171 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:53:34,171 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:53:34,175 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,483 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:53:34,484 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 13:53:34,579 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,597 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 13:53:34,597 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 13:53:34,602 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,787 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:34,787 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 13:53:34,931 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:34,950 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 1 30-DB-OS "L", 70706, 374710, 4MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 13:53:34,950 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 13:53:34,953 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:35,075 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:53:35,075 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 13:53:35,171 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:35,190 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 1 30-DB-OS "L", 70706, 374710, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 13:53:35,190 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 13:53:35,195 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 13:53:49,476 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:53:49,476 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 13:53:49,571 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 13:53:49,571 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:02:44,147 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:02:47,580 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:47,720 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:47,722 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:47,727 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:48,266 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:48,410 [1] DEBUG LibriSelfCheckoutPOS.App - 2Oem5
+2022-06-20 14:02:48,682 [1] DEBUG LibriSelfCheckoutPOS.App - 2Oem51
+2022-06-20 14:02:50,517 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:51,066 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:51,202 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:51,203 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:51,207 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:51,450 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:51,596 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:02:51,596 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:02:51,600 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:51,754 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:51,915 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:51,915 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 14:02:51,920 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:52,042 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:52,220 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:02:52,220 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 14:02:52,223 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:52,330 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:52,557 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:02:52,557 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 14:02:52,560 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:52,650 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:52,810 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:52,810 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 14:02:52,815 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:52,954 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:53,117 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:02:53,117 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 14:02:53,120 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:53,274 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:53,402 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:53,402 [1] DEBUG LibriSelfCheckoutPOS.App - 9
+2022-06-20 14:02:53,407 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:54,138 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:54,235 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:54,235 [1] DEBUG LibriSelfCheckoutPOS.App - 10
+2022-06-20 14:02:54,239 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:55,514 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:02:55,580 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:02:55,580 [1] DEBUG LibriSelfCheckoutPOS.App - 11
+2022-06-20 14:02:55,584 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:02:56,011 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:02:56,107 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:02:56,107 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 14:02:56,111 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:03:02,186 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:03:02,186 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:03:02,233 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:03:02,255 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:03:02,255 [1] DEBUG LibriSelfCheckoutPOS.App - 13
+2022-06-20 14:03:02,259 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:03:13,979 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:03:13,979 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:03:14,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:03:14,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:04:16,397 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:04:18,930 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:19,089 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:19,090 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:19,095 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:20,297 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:20,445 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:04:20,445 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:20,449 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:22,057 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:22,173 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:22,173 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:22,178 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:22,889 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:23,004 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:23,004 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 14:04:23,008 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:23,306 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:23,387 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:23,387 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 14:04:23,392 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:23,561 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:23,675 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:23,675 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 14:04:23,680 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:23,849 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:23,932 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:23,932 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 14:04:23,937 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:24,089 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:24,205 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:24,205 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 14:04:24,210 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:24,361 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:24,460 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:24,461 [1] DEBUG LibriSelfCheckoutPOS.App - 9
+2022-06-20 14:04:24,466 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:24,617 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:24,731 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:24,731 [1] DEBUG LibriSelfCheckoutPOS.App - 10
+2022-06-20 14:04:24,736 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:24,889 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:25,005 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8TOJAS 10 DB-OS, 70707, 46047010, 9TOJAS 10 DB-OS, 70707, 46047010, 10TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:25,005 [1] DEBUG LibriSelfCheckoutPOS.App - 11
+2022-06-20 14:04:25,010 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:26,425 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:04:26,473 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:04:30,525 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:04:38,290 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:38,511 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:38,513 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:38,517 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:39,081 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:39,436 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:04:39,436 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:39,439 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:39,832 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:40,074 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 14:04:40,074 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:40,079 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:43,273 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:43,273 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:43,352 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:43,375 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:43,375 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 14:04:43,380 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:48,873 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:48,873 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:48,873 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:48,968 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:48,968 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:48,989 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:48,989 [1] DEBUG LibriSelfCheckoutPOS.App - 5
+2022-06-20 14:04:48,993 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:54,873 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:54,873 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:54,873 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:54,968 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:54,968 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:54,987 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 14:04:54,987 [1] DEBUG LibriSelfCheckoutPOS.App - 6
+2022-06-20 14:04:54,991 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,224 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:55,224 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:55,224 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:55,321 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,321 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,339 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:04:55,339 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 14:04:55,343 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,513 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:55,513 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:55,513 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:55,640 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,640 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,658 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:55,658 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 14:04:55,662 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:55,960 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:55,961 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:55,961 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:56,025 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,025 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,045 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:04:56,045 [1] DEBUG LibriSelfCheckoutPOS.App - 9
+2022-06-20 14:04:56,049 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,200 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:56,200 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:56,200 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:04:56,328 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,328 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,345 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 14:04:56,345 [1] DEBUG LibriSelfCheckoutPOS.App - 10
+2022-06-20 14:04:56,350 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,472 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:56,472 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:56,472 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:04:56,600 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,600 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,620 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:04:56,620 [1] DEBUG LibriSelfCheckoutPOS.App - 11
+2022-06-20 14:04:56,623 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,680 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:56,681 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:56,681 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:04:56,856 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,856 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:56,875 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 1 30-DB-OS "L", 70706, 374710, 3TOJAS 10 DB-OS, 70707, 46047010, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 1 30-DB-OS "L", 70706, 374710, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:04:56,875 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 14:04:56,880 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:04:57,449 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:04:57,449 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:04:57,449 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:04:57,481 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:04:57,481 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:04:57,481 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:05:53,870 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:05:56,618 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:05:56,755 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:05:56,757 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:05:56,763 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:05:56,872 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:05:56,987 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:05:56,987 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:05:56,990 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:05:57,031 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:05:57,210 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:05:57,210 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:05:57,215 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:05:57,271 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:05:57,434 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:05:57,434 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 14:05:57,438 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:05:57,447 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:05:57,655 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 14:05:57,687 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4ROSHEN CRAZY BEE, 69290, 31310}
+2022-06-20 14:05:57,687 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=3}
+2022-06-20 14:05:57,692 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:05:58,971 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:00,984 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:06:00,984 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:06:01,063 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,087 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4ROSHEN CRAZY BEE, 69290, 31310, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:06:01,087 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=3, 5=460}
+2022-06-20 14:06:01,092 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,208 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:06:01,208 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:06:01,335 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,353 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4ROSHEN CRAZY BEE, 69290, 31310, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:06:01,354 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=3, 5=460, 6=59}
+2022-06-20 14:06:01,357 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,432 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:06:01,432 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:06:01,575 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,593 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4ROSHEN CRAZY BEE, 69290, 31310, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:06:01,593 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=3, 5=460, 6=59, 7=460}
+2022-06-20 14:06:01,597 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:06:01,672 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:06:01,672 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:06:02,375 [1] DEBUG LibriSelfCheckoutPOS.App - 2System
+2022-06-20 14:06:02,375 [1] DEBUG LibriSelfCheckoutPOS.App - 2System
+2022-06-20 14:06:02,456 [1] DEBUG LibriSelfCheckoutPOS.App - 2SystemSystem
+2022-06-20 14:06:02,457 [1] DEBUG LibriSelfCheckoutPOS.App - 2SystemSystem
+2022-06-20 14:07:10,422 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:07:14,153 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:14,251 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:14,253 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:07:14,259 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:14,423 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:14,538 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:14,538 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:07:14,542 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:14,663 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:14,824 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:14,825 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:07:14,830 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:15,078 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:15,209 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:15,209 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 14:07:15,213 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:15,607 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:15,703 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:15,703 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 14:07:15,708 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:20,279 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:20,280 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:20,567 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:20,588 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:20,588 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460}
+2022-06-20 14:07:20,593 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:24,439 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:24,439 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:24,679 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:24,697 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:24,698 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460}
+2022-06-20 14:07:24,702 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:26,999 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:26,999 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:27,095 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:27,112 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:27,112 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460}
+2022-06-20 14:07:27,116 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:27,479 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:27,479 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:27,574 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:27,593 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:27,593 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59}
+2022-06-20 14:07:27,597 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:27,879 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:07:27,879 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:07:27,958 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:27,976 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 14:07:27,976 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37}
+2022-06-20 14:07:27,981 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,183 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:28,183 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:28,247 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,264 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:28,264 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59}
+2022-06-20 14:07:28,268 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,439 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:28,439 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:28,519 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,536 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:28,536 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460}
+2022-06-20 14:07:28,541 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,727 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:28,727 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:28,791 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,808 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:28,808 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460}
+2022-06-20 14:07:28,812 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:28,999 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:28,999 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:29,046 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,065 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:29,065 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460}
+2022-06-20 14:07:29,069 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,239 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:29,239 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:29,318 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,336 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010, 14TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:29,336 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460, 14=460}
+2022-06-20 14:07:29,340 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,511 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:29,512 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:29,591 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,609 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010, 14TOJAS 10 DB-OS, 70707, 46047010, 15MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:29,609 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460, 14=460, 15=59}
+2022-06-20 14:07:29,613 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,831 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:07:29,831 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:07:29,878 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:29,896 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010, 14TOJAS 10 DB-OS, 70707, 46047010, 15MIESKO 1DB KAVE, 73354, 596910, 16TOJAS 1 30-DB-OS "L", 70706, 374710}
+2022-06-20 14:07:29,896 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460, 14=460, 15=59, 16=37}
+2022-06-20 14:07:29,900 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:30,103 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:30,103 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:30,166 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:30,185 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010, 14TOJAS 10 DB-OS, 70707, 46047010, 15MIESKO 1DB KAVE, 73354, 596910, 16TOJAS 1 30-DB-OS "L", 70706, 374710, 17MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:30,185 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460, 14=460, 15=59, 16=37, 17=59}
+2022-06-20 14:07:30,189 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:30,375 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:30,375 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:30,454 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:30,473 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6TOJAS 10 DB-OS, 70707, 46047010, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 1 30-DB-OS "L", 70706, 374710, 10MIESKO 1DB KAVE, 73354, 596910, 11TOJAS 10 DB-OS, 70707, 46047010, 12TOJAS 10 DB-OS, 70707, 46047010, 13TOJAS 10 DB-OS, 70707, 46047010, 14TOJAS 10 DB-OS, 70707, 46047010, 15MIESKO 1DB KAVE, 73354, 596910, 16TOJAS 1 30-DB-OS "L", 70706, 374710, 17MIESKO 1DB KAVE, 73354, 596910, 18TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:30,473 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=460, 7=460, 8=59, 9=37, 10=59, 11=460, 12=460, 13=460, 14=460, 15=59, 16=37, 17=59, 18=460}
+2022-06-20 14:07:30,478 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:31,255 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:07:31,255 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:07:31,335 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:07:31,336 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:07:41,509 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:07:45,016 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:45,147 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:45,149 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:07:45,155 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:45,164 [1] DEBUG LibriSelfCheckoutPOS.App - Oem5
+2022-06-20 14:07:45,526 [1] DEBUG LibriSelfCheckoutPOS.App - Oem52
+2022-06-20 14:07:45,977 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:46,406 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:46,572 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:46,572 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460}
+2022-06-20 14:07:46,577 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:46,854 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:46,952 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:46,952 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59}
+2022-06-20 14:07:46,956 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:47,111 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:47,240 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:47,240 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460}
+2022-06-20 14:07:47,245 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:47,399 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:47,529 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:47,529 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59}
+2022-06-20 14:07:47,532 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:49,607 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:49,607 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:49,719 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:49,742 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:49,743 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460}
+2022-06-20 14:07:49,747 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:50,279 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:50,279 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:50,327 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:50,345 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:50,346 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460, 6=59}
+2022-06-20 14:07:50,349 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:50,631 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:50,631 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:50,711 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:50,728 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:50,728 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460, 6=59, 7=460}
+2022-06-20 14:07:50,732 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:50,951 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:50,951 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:51,046 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:51,065 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:51,065 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460, 6=59, 7=460, 8=59}
+2022-06-20 14:07:51,068 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:51,255 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:51,255 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:07:51,351 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:51,368 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:07:51,368 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460, 6=59, 7=460, 8=59, 9=460}
+2022-06-20 14:07:51,372 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:51,607 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:51,607 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:07:51,687 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:51,706 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1TOJAS 10 DB-OS, 70707, 46047010, 2MIESKO 1DB KAVE, 73354, 596910, 3TOJAS 10 DB-OS, 70707, 46047010, 4MIESKO 1DB KAVE, 73354, 596910, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 10 DB-OS, 70707, 46047010, 10MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:07:51,706 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=460, 2=59, 3=460, 4=59, 5=460, 6=59, 7=460, 8=59, 9=460, 10=59}
+2022-06-20 14:07:51,710 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:07:52,374 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:07:52,374 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:07:52,455 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:07:52,455 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:08:26,858 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:08:29,519 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:29,682 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:29,684 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:08:29,690 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:30,022 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:30,139 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:08:30,139 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:08:30,144 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:30,358 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:30,473 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:30,473 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:08:30,478 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:30,647 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:30,793 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:08:30,793 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 14:08:30,796 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:30,902 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:31,031 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:31,032 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 14:08:31,036 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:33,639 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:33,639 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:33,734 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:33,759 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:33,759 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460}
+2022-06-20 14:08:33,764 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,038 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:34,039 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:34,102 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,121 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:08:34,121 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=59}
+2022-06-20 14:08:34,124 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,342 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:34,342 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:34,470 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,487 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:34,487 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=59, 7=460}
+2022-06-20 14:08:34,492 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,710 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:34,710 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:08:34,806 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,825 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:08:34,825 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=59, 7=460, 8=59}
+2022-06-20 14:08:34,829 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:34,998 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:34,998 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:08:35,094 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:35,112 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5TOJAS 10 DB-OS, 70707, 46047010, 6MIESKO 1DB KAVE, 73354, 596910, 7TOJAS 10 DB-OS, 70707, 46047010, 8MIESKO 1DB KAVE, 73354, 596910, 9TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:08:35,112 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=460, 6=59, 7=460, 8=59, 9=460}
+2022-06-20 14:08:35,116 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:08:35,607 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:08:35,607 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:08:35,687 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:08:35,687 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:09:47,790 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:09:50,903 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:51,023 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:51,025 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:09:51,031 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:51,222 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:51,339 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:51,339 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:09:51,343 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:51,510 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:51,656 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:51,657 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:09:51,662 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:51,878 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:51,978 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:51,979 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 14:09:51,982 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:52,117 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:52,264 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:52,264 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 14:09:52,270 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:52,438 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:54,742 [1] DEBUG LibriSelfCheckoutPOS.App - 22
+2022-06-20 14:09:54,742 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:54,789 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:54,812 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:54,812 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59}
+2022-06-20 14:09:54,816 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,093 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:55,093 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:55,190 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,207 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:55,207 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460}
+2022-06-20 14:09:55,212 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,414 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:55,414 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:55,541 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,559 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:55,560 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59}
+2022-06-20 14:09:55,563 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,798 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:55,798 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:55,909 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:55,927 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:55,927 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460}
+2022-06-20 14:09:55,932 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:56,070 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:56,070 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:56,197 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:56,216 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:56,216 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59}
+2022-06-20 14:09:56,219 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:56,374 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:56,374 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:09:56,485 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:56,503 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010}
+2022-06-20 14:09:56,503 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460}
+2022-06-20 14:09:56,508 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:59,446 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:59,446 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:59,509 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:59,528 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:59,528 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59}
+2022-06-20 14:09:59,532 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:59,765 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:59,766 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:09:59,861 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:09:59,880 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:09:59,880 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59}
+2022-06-20 14:09:59,883 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:00,038 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:00,038 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:00,181 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:00,200 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:00,200 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59}
+2022-06-20 14:10:00,203 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:00,327 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:00,327 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:00,517 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:00,536 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910, 14MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:00,536 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59, 14=59}
+2022-06-20 14:10:00,540 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:01,078 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:01,078 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:01,173 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:01,191 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910, 14MIESKO 1DB KAVE, 73354, 596910, 15MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:01,192 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59, 14=59, 15=59}
+2022-06-20 14:10:01,195 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:01,670 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:01,670 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:01,750 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:01,769 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910, 14MIESKO 1DB KAVE, 73354, 596910, 15MIESKO 1DB KAVE, 73354, 596910, 16MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:01,769 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59, 14=59, 15=59, 16=59}
+2022-06-20 14:10:01,772 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:02,102 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:02,102 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:02,182 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:02,201 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910, 14MIESKO 1DB KAVE, 73354, 596910, 15MIESKO 1DB KAVE, 73354, 596910, 16MIESKO 1DB KAVE, 73354, 596910, 17MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:02,201 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59, 14=59, 15=59, 16=59, 17=59}
+2022-06-20 14:10:02,204 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:02,613 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:02,614 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:10:02,709 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:02,729 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010, 1MIESKO 1DB KAVE, 73354, 596910, 2TOJAS 10 DB-OS, 70707, 46047010, 3MIESKO 1DB KAVE, 73354, 596910, 4TOJAS 10 DB-OS, 70707, 46047010, 5MIESKO 1DB KAVE, 73354, 596910, 6TOJAS 10 DB-OS, 70707, 46047010, 7MIESKO 1DB KAVE, 73354, 596910, 8TOJAS 10 DB-OS, 70707, 46047010, 9MIESKO 1DB KAVE, 73354, 596910, 10TOJAS 10 DB-OS, 70707, 46047010, 11MIESKO 1DB KAVE, 73354, 596910, 12MIESKO 1DB KAVE, 73354, 596910, 13MIESKO 1DB KAVE, 73354, 596910, 14MIESKO 1DB KAVE, 73354, 596910, 15MIESKO 1DB KAVE, 73354, 596910, 16MIESKO 1DB KAVE, 73354, 596910, 17MIESKO 1DB KAVE, 73354, 596910, 18MIESKO 1DB KAVE, 73354, 596910}
+2022-06-20 14:10:02,729 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460, 7=59, 8=460, 9=59, 10=460, 11=59, 12=59, 13=59, 14=59, 15=59, 16=59, 17=59, 18=59}
+2022-06-20 14:10:02,732 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:10:12,278 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:10:12,278 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:10:12,279 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:10:12,342 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:10:12,342 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:10:12,342 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:30:25,426 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:30:28,081 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:30:28,200 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:30:28,202 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:30:28,208 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:30:32,384 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:30:32,481 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:30:32,481 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:30:32,484 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:30:32,783 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:30:32,863 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False}
+2022-06-20 14:30:32,863 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-20 14:30:32,868 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:30:33,167 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:30:38,575 [1] DEBUG LibriSelfCheckoutPOS.App - 2System
+2022-06-20 14:30:38,655 [1] DEBUG LibriSelfCheckoutPOS.App - 2SystemSystem
+2022-06-20 14:31:22,013 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:31:25,200 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:31:25,304 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:31:25,306 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:31:25,311 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:31:33,362 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:31:33,423 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:32:24,173 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:32:27,792 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:32:27,925 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:32:27,927 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:32:27,933 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:32:28,190 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:32:28,368 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:32:28,368 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:32:28,371 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:32:32,305 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:32:32,383 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:34:26,710 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:34:30,735 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:34:30,934 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:34:30,936 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:34:30,947 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:34:31,102 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:34:31,217 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:34:31,217 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:34:31,221 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:34:31,389 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:34:31,518 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:34:31,519 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:34:31,523 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:34:31,694 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:34:31,810 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:34:31,810 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 14:34:31,813 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:34:32,029 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:34:35,842 [1] DEBUG LibriSelfCheckoutPOS.App - 1System
+2022-06-20 14:34:36,317 [1] DEBUG LibriSelfCheckoutPOS.App - 1SystemSystem
+2022-06-20 14:36:14,989 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:36:17,887 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:36:18,011 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:36:18,013 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:36:18,019 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:36:18,109 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:36:18,194 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:36:18,194 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:36:18,197 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:36:23,057 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:36:23,150 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:38:44,390 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:38:46,847 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:38:46,966 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:38:46,967 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:38:46,973 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:38:49,200 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:38:49,280 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:38:49,280 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:38:49,283 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:38:49,484 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:38:49,614 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False}
+2022-06-20 14:38:49,614 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-20 14:38:49,618 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:38:49,741 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:38:49,871 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False, 3MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:38:49,871 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59}
+2022-06-20 14:38:49,875 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:38:49,965 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:38:50,112 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False, 3MIESKO 1DB KAVE, 73354, 596910False, 4TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:38:50,113 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460}
+2022-06-20 14:38:50,117 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:38:59,580 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:38:59,644 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 14:46:48,216 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 14:46:51,709 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:46:51,856 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:46:51,858 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 14:46:51,864 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:46:52,011 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:46:52,142 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 14:46:52,143 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 14:46:52,148 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:46:52,284 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:46:52,429 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:46:52,429 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 14:46:52,434 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:46:54,093 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 14:46:54,222 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 14:46:54,222 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=460}
+2022-06-20 14:46:54,222 [1] DEBUG LibriSelfCheckoutPOS.App - 1MIESKO 1DB KAVE, 73354, 596910False
+2022-06-20 14:46:54,226 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:46:54,604 [1] DEBUG LibriSelfCheckoutPOS.App - Subtract
+2022-06-20 14:46:55,643 [1] DEBUG LibriSelfCheckoutPOS.App - Subtract2
+2022-06-20 14:46:57,081 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:46:58,219 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 14:46:58,352 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3TOJAS 10 DB-OS, 70707, 46047010False, 4TOJAS 1 30-DB-OS "L", 70706, 374710False}
+2022-06-20 14:46:58,352 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=460, 4=37}
+2022-06-20 14:46:58,352 [1] DEBUG LibriSelfCheckoutPOS.App - 3TOJAS 10 DB-OS, 70707, 46047010False
+2022-06-20 14:46:58,357 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:47:00,716 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 14:47:02,570 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:47:02,827 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 14:47:03,084 [1] DEBUG LibriSelfCheckoutPOS.App - 21
+2022-06-20 14:47:03,580 [1] DEBUG LibriSelfCheckoutPOS.App - 212
+2022-06-20 14:47:03,755 [1] DEBUG LibriSelfCheckoutPOS.App - 2123
+2022-06-20 14:47:04,060 [1] DEBUG LibriSelfCheckoutPOS.App - 21234
+2022-06-20 14:47:05,323 [1] DEBUG LibriSelfCheckoutPOS.App - 212342
+2022-06-20 14:47:08,822 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 14:47:09,309 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 14:47:09,436 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:02:09,655 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:02:12,197 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:12,391 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:02:12,393 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:02:12,399 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:12,508 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:12,672 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:02:12,672 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:02:12,676 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:12,748 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:12,910 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:02:12,911 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:02:12,916 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:13,003 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:13,137 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:02:13,137 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:02:13,140 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:13,260 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:25,061 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:02:27,661 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:27,796 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:02:27,798 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:02:27,804 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:27,916 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:28,047 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:02:28,047 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:02:28,051 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:28,156 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:02:28,319 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False}
+2022-06-20 15:02:28,319 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-20 15:02:28,324 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:28,411 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:28,575 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False, 3MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:02:28,575 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59}
+2022-06-20 15:02:28,579 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:28,715 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:28,830 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710False, 3MIESKO 1DB KAVE, 73354, 596910False, 4TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:02:28,830 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460}
+2022-06-20 15:02:28,835 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:39,451 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:39,452 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:02:39,611 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:39,632 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710True, 3MIESKO 1DB KAVE, 73354, 596910False, 4TOJAS 10 DB-OS, 70707, 46047010True, 5MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:02:39,632 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59}
+2022-06-20 15:02:39,635 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:39,870 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:02:39,870 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:02:40,027 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:40,044 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710True, 3MIESKO 1DB KAVE, 73354, 596910False, 4TOJAS 10 DB-OS, 70707, 46047010True, 5MIESKO 1DB KAVE, 73354, 596910False, 6TOJAS 1 30-DB-OS "L", 70706, 374710False}
+2022-06-20 15:02:40,044 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=37}
+2022-06-20 15:02:40,048 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:40,219 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 15:02:40,219 [1] DEBUG LibriSelfCheckoutPOS.App - 4
+2022-06-20 15:02:40,427 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:40,760 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:41,227 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:41,227 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:02:41,307 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:41,329 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 1 30-DB-OS "L", 70706, 374710True, 3MIESKO 1DB KAVE, 73354, 596910False, 4TOJAS 10 DB-OS, 70707, 46047010True, 5MIESKO 1DB KAVE, 73354, 596910False, 6TOJAS 1 30-DB-OS "L", 70706, 374710False, 7TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:02:41,329 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=37, 7=460}
+2022-06-20 15:02:41,333 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:02:43,963 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:02:43,964 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:02:44,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:02:44,059 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:11:38,031 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:11:40,452 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:11:40,670 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:11:40,672 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:11:40,678 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:11:40,722 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:11:40,870 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:11:40,870 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:11:40,874 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:11:56,850 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:11:56,850 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:11:56,962 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:11:56,963 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:12:32,910 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:12:36,195 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:12:36,359 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:12:36,361 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:12:36,367 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:36,482 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:36,627 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:12:36,627 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:12:36,630 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:36,737 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:12:36,881 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:12:36,881 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:12:36,886 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:36,993 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:37,140 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:12:37,140 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:12:37,144 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:37,250 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:37,396 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False, 4MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:12:37,396 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59}
+2022-06-20 15:12:37,400 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:37,505 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:37,652 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False, 4MIESKO 1DB KAVE, 73354, 596910False, 5MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:12:37,652 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=59}
+2022-06-20 15:12:37,655 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:37,762 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:12:37,923 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910False, 4MIESKO 1DB KAVE, 73354, 596910False, 5MIESKO 1DB KAVE, 73354, 596910False, 6TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:12:37,923 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=59, 6=460}
+2022-06-20 15:12:37,927 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:56,065 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:12:56,066 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:12:56,145 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:56,166 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010True, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910True, 4MIESKO 1DB KAVE, 73354, 596910False, 5MIESKO 1DB KAVE, 73354, 596910True, 6TOJAS 10 DB-OS, 70707, 46047010True, 7TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:12:56,166 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=59, 6=460, 7=460}
+2022-06-20 15:12:56,170 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:56,385 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:56,385 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:12:56,466 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:12:56,483 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010True, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False, 3MIESKO 1DB KAVE, 73354, 596910True, 4MIESKO 1DB KAVE, 73354, 596910False, 5MIESKO 1DB KAVE, 73354, 596910True, 6TOJAS 10 DB-OS, 70707, 46047010True, 7TOJAS 10 DB-OS, 70707, 46047010False, 8MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:12:56,483 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=59, 6=460, 7=460, 8=59}
+2022-06-20 15:12:56,486 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:13:47,067 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:13:50,611 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:13:50,748 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:13:50,750 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:13:50,756 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:13:50,865 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:13:50,997 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False}
+2022-06-20 15:13:50,997 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:13:51,001 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:13:51,073 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:13:51,217 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:13:51,217 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:13:51,221 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:13:51,313 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:14:01,793 [1] DEBUG LibriSelfCheckoutPOS.App - 21
+2022-06-20 15:14:01,793 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:14:01,824 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:14:01,844 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 46047010False, 1MIESKO 1DB KAVE, 73354, 596910False, 2TOJAS 10 DB-OS, 70707, 46047010True, 3TOJAS 10 DB-OS, 70707, 46047010False}
+2022-06-20 15:14:01,844 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=460}
+2022-06-20 15:14:01,849 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:14:03,057 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:14:03,057 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:14:03,121 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:14:03,121 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:16:11,123 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:16:15,185 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:16:15,388 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:16:15,390 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:16:15,396 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:15,455 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:16:15,636 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:16:15,636 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:16:15,640 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:15,743 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:16:15,888 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False}
+2022-06-20 15:16:15,888 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-20 15:16:15,892 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:15,983 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:16:16,131 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:16:16,131 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59}
+2022-06-20 15:16:16,135 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:16,239 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:16:16,400 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:16:16,400 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460}
+2022-06-20 15:16:16,404 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:35,345 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:16:35,345 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:16:35,406 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:35,429 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:16:35,429 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460}
+2022-06-20 15:16:35,434 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:35,647 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:16:35,647 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:16:35,727 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:35,745 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 6MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:16:35,745 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460, 6=59}
+2022-06-20 15:16:35,748 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:16:46,159 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:16:46,159 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:16:46,223 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:16:46,223 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:18:33,058 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:18:35,951 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:18:36,082 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:18:36,083 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:18:36,089 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:18:36,174 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:18:36,273 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:18:36,273 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:18:36,277 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:18:36,350 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:18:36,495 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:18:36,495 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:18:36,500 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:18:36,573 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:18:36,736 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:18:36,736 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:18:36,740 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:18:36,799 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:18:36,943 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:18:36,943 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 15:18:36,947 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:18:42,334 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:18:42,335 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:18:42,430 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:18:42,430 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:20:16,316 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:20:19,475 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:20:19,549 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 15:20:19,654 [1] DEBUG LibriSelfCheckoutPOS.App - {0ROSHEN CRAZY BEE, 69290, 3, 13, 10, False}
+2022-06-20 15:20:19,656 [1] DEBUG LibriSelfCheckoutPOS.App - {0=3}
+2022-06-20 15:20:19,663 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:20:19,670 [1] DEBUG LibriSelfCheckoutPOS.App - Oem5
+2022-06-20 15:20:19,725 [1] DEBUG LibriSelfCheckoutPOS.App - Oem52
+2022-06-20 15:20:20,969 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:20:21,244 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:20:21,377 [1] DEBUG LibriSelfCheckoutPOS.App - {0ROSHEN CRAZY BEE, 69290, 3, 13, 10, False, 1TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:20:21,377 [1] DEBUG LibriSelfCheckoutPOS.App - {0=3, 1=460}
+2022-06-20 15:20:21,382 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:20:26,159 [1] DEBUG LibriSelfCheckoutPOS.App - LeftCtrl
+2022-06-20 15:20:43,805 [1] DEBUG LibriSelfCheckoutPOS.App - LeftCtrlSystem
+2022-06-20 15:20:43,885 [1] DEBUG LibriSelfCheckoutPOS.App - LeftCtrlSystemSystem
+2022-06-20 15:21:45,745 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:21:53,461 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:21:53,462 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:21:53,536 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:21:53,562 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:21:53,563 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:21:53,569 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:22:08,173 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:22:08,173 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:22:08,237 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:22:08,237 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:24:32,200 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:24:35,020 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:24:35,176 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:24:35,177 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:24:35,183 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:35,242 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:35,360 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:24:35,360 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:24:35,365 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:35,451 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:24:35,566 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False}
+2022-06-20 15:24:35,566 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-20 15:24:35,570 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:35,658 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:35,792 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:24:35,792 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59}
+2022-06-20 15:24:35,796 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:35,931 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:24:36,060 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:24:36,060 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460}
+2022-06-20 15:24:36,064 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:36,203 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:36,334 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:24:36,334 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59}
+2022-06-20 15:24:36,338 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:41,531 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:24:41,532 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:24:42,058 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,081 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 6TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:24:42,081 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=460}
+2022-06-20 15:24:42,085 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,187 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:42,187 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:42,330 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,349 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 6TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 7MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:24:42,349 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=460, 7=59}
+2022-06-20 15:24:42,353 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,459 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:24:42,459 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-20 15:24:42,586 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,604 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 6TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 7MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 8TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False}
+2022-06-20 15:24:42,604 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=460, 7=59, 8=37}
+2022-06-20 15:24:42,609 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,699 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:42,699 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:24:42,810 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:24:42,828 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 6TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 7MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 8TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 9MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:24:42,828 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=59, 6=460, 7=59, 8=37, 9=59}
+2022-06-20 15:24:42,831 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:25:16,156 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:25:16,156 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:25:16,156 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:25:16,156 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:25:16,267 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:25:16,267 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:25:16,267 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:25:16,267 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:39:40,072 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:39:43,320 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:39:43,506 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:39:43,508 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:39:43,514 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:43,623 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:39:43,754 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:39:43,755 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:39:43,758 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:43,831 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:39:44,010 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:39:44,010 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:39:44,015 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:44,070 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:39:44,266 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:39:44,266 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:39:44,270 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:44,343 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:39:44,504 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:39:44,505 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 15:39:44,509 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:44,631 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:39:44,827 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:39:44,827 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59}
+2022-06-20 15:39:44,830 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:39:51,881 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:39:51,991 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:41:00,712 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:41:03,272 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:41:03,376 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:41:03,378 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:41:03,384 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:03,494 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:41:03,642 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:41:03,643 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:41:03,646 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:03,718 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:41:03,912 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:41:03,912 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:41:03,917 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:03,974 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:41:04,153 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:41:04,153 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:41:04,157 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:04,230 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:41:04,409 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:41:04,409 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59}
+2022-06-20 15:41:04,413 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:04,438 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:41:04,649 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:41:04,649 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=460}
+2022-06-20 15:41:04,654 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:41:19,351 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:41:19,351 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-20 15:41:19,382 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:41:19,383 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-20 15:42:50,291 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:42:53,787 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:42:54,090 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:42:54,091 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:42:54,097 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:54,294 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:42:54,520 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:42:54,520 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:42:54,523 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:54,789 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:42:54,790 [1] DEBUG LibriSelfCheckoutPOS.App - 21
+2022-06-20 15:42:55,552 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:56,150 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:42:56,508 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:42:56,508 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59}
+2022-06-20 15:42:56,511 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:56,805 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:42:57,079 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:42:57,079 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460}
+2022-06-20 15:42:57,083 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:57,397 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:42:57,655 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:42:57,655 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460}
+2022-06-20 15:42:57,660 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:58,278 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 15:42:58,471 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False}
+2022-06-20 15:42:58,471 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460, 5=589}
+2022-06-20 15:42:58,476 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:58,805 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 15:42:59,080 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 6TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False}
+2022-06-20 15:42:59,080 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460, 5=589, 6=49}
+2022-06-20 15:42:59,083 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:42:59,351 [1] DEBUG LibriSelfCheckoutPOS.App - 7
+2022-06-20 15:42:59,718 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 6TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False, 7FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False}
+2022-06-20 15:42:59,718 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460, 5=589, 6=49, 7=589}
+2022-06-20 15:42:59,723 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:43:00,214 [1] DEBUG LibriSelfCheckoutPOS.App - 8
+2022-06-20 15:43:00,424 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 6TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False, 7FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 8TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False}
+2022-06-20 15:43:00,424 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460, 5=589, 6=49, 7=589, 8=49}
+2022-06-20 15:43:00,427 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:43:35,894 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:43:35,894 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:43:36,021 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:43:36,043 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 3TOJAS 10 DB-OS, 70707, 460, 470, 10, True, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 6TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False, 7FAGYASZTOTT APRITOTT BAROMFIHUS 1KG, 70799, 589, 599, 10, False, 8TUTTI FORRO CSOKOLADE 25G, 74692, 49, 59, 10, False, 9MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:43:36,043 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=460, 4=460, 5=589, 6=49, 7=589, 8=49, 9=59}
+2022-06-20 15:43:36,046 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:47:00,819 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:47:03,847 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:47:03,972 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:47:03,974 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:47:03,981 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:47:04,133 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:47:04,250 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:47:04,250 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:47:04,254 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:47:04,420 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:47:04,523 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:47:04,523 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59}
+2022-06-20 15:47:04,528 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:47:04,660 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:47:04,793 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:47:04,793 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=59, 3=59}
+2022-06-20 15:47:04,797 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:48:36,789 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:48:39,293 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:48:39,382 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:48:39,384 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:48:39,390 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:48:39,493 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:48:39,608 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:48:39,609 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:48:39,612 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:48:39,701 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:48:39,832 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:48:39,832 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:48:39,837 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:48:39,892 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:48:40,058 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:48:40,058 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:48:40,061 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:48:40,065 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:48:40,116 [1] DEBUG LibriSelfCheckoutPOS.App - 12
+2022-06-20 15:48:59,702 [1] DEBUG LibriSelfCheckoutPOS.App - 12System
+2022-06-20 15:48:59,781 [1] DEBUG LibriSelfCheckoutPOS.App - 12SystemSystem
+2022-06-20 15:49:21,614 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-20 15:49:24,678 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:49:24,845 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:49:24,847 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-20 15:49:24,853 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:24,932 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:49:25,095 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:49:25,095 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-20 15:49:25,099 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:25,157 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:49:25,334 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:49:25,334 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-20 15:49:25,339 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:25,412 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:49:25,576 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:49:25,576 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-20 15:49:25,580 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:25,669 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:49:25,846 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:49:25,846 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460}
+2022-06-20 15:49:25,851 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:40,149 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:49:40,150 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-20 15:49:40,261 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:40,284 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, True, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-20 15:49:40,285 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59}
+2022-06-20 15:49:40,288 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:40,468 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:49:40,469 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-20 15:49:40,583 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-20 15:49:40,601 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, True, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, True, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 6TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-20 15:49:40,601 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=460, 5=59, 6=460}
+2022-06-20 15:49:40,605 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:50,144 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-21 08:34:54,119 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:34:54,279 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:34:54,281 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-21 08:34:54,287 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:54,472 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:34:54,644 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:34:54,644 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-21 08:34:54,647 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:54,791 [1] DEBUG LibriSelfCheckoutPOS.App - 3
+2022-06-21 08:34:54,984 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False}
+2022-06-21 08:34:54,984 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37}
+2022-06-21 08:34:54,989 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:55,079 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:34:55,291 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:34:55,291 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59}
+2022-06-21 08:34:55,295 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:55,384 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:34:55,625 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:34:55,625 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460}
+2022-06-21 08:34:55,630 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:34:55,752 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:34:55,929 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:34:55,929 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460}
+2022-06-21 08:34:55,935 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:02,840 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:35:02,840 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:35:02,967 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:02,989 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 6MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:35:02,989 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460, 6=59}
+2022-06-21 08:35:02,993 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:03,306 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:35:03,306 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:35:03,384 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:03,401 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 6MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 7TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:35:03,401 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460, 6=59, 7=460}
+2022-06-21 08:35:03,406 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:03,608 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:35:03,608 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:35:03,687 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:35:03,710 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 1 30-DB-OS "L", 70706, 37, 47, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 6MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 7TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 8MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:35:03,710 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=37, 3=59, 4=460, 5=460, 6=59, 7=460, 8=59}
+2022-06-21 08:35:03,714 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:38:59,907 [1] DEBUG LibriSelfCheckoutPOS.App - Initialising ...
+2022-06-21 08:39:03,863 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:39:04,004 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:39:04,006 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460}
+2022-06-21 08:39:04,012 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:04,117 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:39:04,265 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:39:04,265 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59}
+2022-06-21 08:39:04,269 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:04,357 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:39:04,535 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:39:04,535 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460}
+2022-06-21 08:39:04,539 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:04,629 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:39:04,791 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:39:04,791 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59}
+2022-06-21 08:39:04,795 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:08,406 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:39:08,406 [1] DEBUG LibriSelfCheckoutPOS.App - 2
+2022-06-21 08:39:08,469 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:08,490 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4MIESKO 1DB KAVE, 73354, 59, 69, 10, False}
+2022-06-21 08:39:08,490 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59}
+2022-06-21 08:39:08,493 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:08,789 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:39:08,789 [1] DEBUG LibriSelfCheckoutPOS.App - 1
+2022-06-21 08:39:08,869 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:08,886 [1] DEBUG LibriSelfCheckoutPOS.App - {0TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 1MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 2TOJAS 10 DB-OS, 70707, 460, 470, 10, False, 3MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 4MIESKO 1DB KAVE, 73354, 59, 69, 10, False, 5TOJAS 10 DB-OS, 70707, 460, 470, 10, False}
+2022-06-21 08:39:08,887 [1] DEBUG LibriSelfCheckoutPOS.App - {0=460, 1=59, 2=460, 3=59, 4=59, 5=460}
+2022-06-21 08:39:08,891 [1] DEBUG LibriSelfCheckoutPOS.App - 
+2022-06-21 08:39:27,606 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-21 08:39:27,606 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-21 08:39:27,606 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-21 08:39:27,606 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-21 08:39:27,606 [1] DEBUG LibriSelfCheckoutPOS.App - System
+2022-06-21 08:39:27,749 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-21 08:39:27,749 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-21 08:39:27,749 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-21 08:39:27,749 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem
+2022-06-21 08:39:27,749 [1] DEBUG LibriSelfCheckoutPOS.App - SystemSystem

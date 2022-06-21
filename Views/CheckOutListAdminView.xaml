@@ -58,70 +58,36 @@
                              Grid.ColumnSpan="2"
                              Background="#f5f4eb">
         </materialDesign:Card>-->
-        <ScrollViewer VerticalScrollBarVisibility="Auto"
-                      Background="#f5f4eb"
+        <ListView
+            SelectedItem="{Binding SelectedProduct}"
+            Background="#f5f4eb"
                       Grid.Row="1"
-                      Margin="16"
-                      Grid.ColumnSpan="2">
-            <ListView Width="1020px" Margin="10,10,10,10" Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top">>
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="#">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="1"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Termék">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="Könyv"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Mennyiség">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="3 db"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Cikkszám">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="233252"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Egységár" >
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Engedmény">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Érték">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5000 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
+                      Grid.ColumnSpan="2" FontSize="35"
+            Margin="10" ItemsSource="{Binding FelvettCikkek}" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
+                    <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
+                    <GridViewColumn Header="UnitPrice" Width="200" DisplayMemberBinding="{Binding productUnitPrice}" />
+                    <GridViewColumn Header="Discount" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
+                    <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
+                </GridView>
+            </ListView.View>
+            <ListView.Resources>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding productIsDeleted}"
+                      Value="True">
+                            <Setter Property="Foreground"
+                  Value="Red" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
+        </ListView>
         <Button
             IsEnabled="{Binding PaymentEnabled}"
-            Command="{Binding ClickCommand}"
+            Command="{Binding TorlesCommand}"
             VerticalAlignment="Center"
             Name="tetelterlesBtn"
             Grid.Row="2"

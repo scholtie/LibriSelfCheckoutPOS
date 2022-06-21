@@ -23,6 +23,9 @@
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid Name="MainGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="//Templates/Libri/Assets/header_veg.jpg" Opacity="0.4" Stretch="None" />
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="4*" />
@@ -35,7 +38,7 @@
         <Image Width="auto" Height="auto" 
                Style="{StaticResource Libri-img}" 
                Source="//Templates/Libri/Assets/logo.png" 
-               StretchDirection="Both" Stretch="Uniform" 
+               StretchDirection="Both" Stretch="Uniform"
                HorizontalAlignment="Center"/>
         
         <MediaElement
@@ -44,6 +47,8 @@
             Height="auto"
             Width="auto"
             Source="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" />
+
+        
 
         <Button
             IsEnabled="{Binding PaymentEnabled}"

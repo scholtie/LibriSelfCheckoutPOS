@@ -88,32 +88,66 @@
                              Grid.ColumnSpan="2"
                              Background="#f5f4eb">
         </materialDesign:Card>-->
-        <ScrollViewer VerticalScrollBarVisibility="Auto"
+        <!--<ScrollViewer VerticalScrollBarVisibility="Disabled"
+                      HorizontalScrollBarVisibility="Disabled"
                       Background="#f5f4eb"
                       Grid.Row="1"
                       Margin="16"
                       Grid.ColumnSpan="2">
-            <ListView Margin="10" Name="lvDataBinding" ItemsSource="{Binding products}" FontSize="35">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
-                        <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
-                        <GridViewColumn Header="UnitPrice" Width="220" DisplayMemberBinding="{Binding productUnitPrice}" />
-                        <GridViewColumn Header="Discount" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
-                        <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
-                    </GridView>
-                </ListView.View>
-                <!--<ListView.ItemContainerStyle>
-                </ListView.ItemContainerStyle>-->
-            </ListView>
-        </ScrollViewer>
+            
+        </ScrollViewer>-->
+        <!--<GroupBox Background="#f5f4eb"
+                      Grid.Row="1"
+                      Grid.ColumnSpan="2"
+            Margin="10" Name="lvDataBinding" FontSize="35">
+            <ItemsControl ItemsSource="{Binding ProductList}" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="5" Text="{Binding productName}"></TextBlock>
+                            <TextBlock Margin="5" Text="{Binding productPrice}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </GroupBox>-->
+        <ListView
+            ManipulationBoundaryFeedback="OnManipulationBoundaryFeedback"
+            Name ="productsList"
+            Background="#f5f4eb"
+                      Grid.Row="1"
+                      Grid.ColumnSpan="2" FontSize="35"
+            Margin="10" 
+            
+            ItemsSource="{Binding FelvettCikkek}" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
+                    <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
+                    <GridViewColumn Header="UnitPrice" Width="200" DisplayMemberBinding="{Binding productUnitPrice}" />
+                    <GridViewColumn Header="Discount" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
+                    <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
+                </GridView>
+            </ListView.View>
+            <ListView.Resources>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding productIsDeleted}"
+                      Value="True">
+                            <Setter Property="Background"
+                  Value="Red" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
+        </ListView>
         <!--<StackPanel
             Grid.Row="0"
             Grid.Column="0"
             FocusManager.FocusedElement="{Binding ElementName=Box}">
             <TextBox Name="Box" />
         </StackPanel>-->
-        <Button Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
             <!--<StackPanel>
                 <TextBlock Text="Segítségkérés" HorizontalAlignment="Center" FontSize="18"/>
                 
@@ -125,7 +159,7 @@
                 </StackPanel>
             </Label>
         </Button>
-        <Button Click="closeWindow" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Click="closeWindow" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <!--<TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>-->
                 <TextBlock Text="{DynamicResource language}" HorizontalAlignment="Center" FontSize="18"/>
@@ -140,7 +174,7 @@
             Grid.Row="4"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Style="{StaticResource Libri-button}"
             Height="100px"
             FontSize="40"
             Margin="10 10 10 10"

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\App.xaml
-22-2147383963
+27288768191
 
-42-1464626424
+53-932510526
 1971880075401
-MainWindow.xaml;MessageBoxCustom.xaml;Resources\StringResource.de.xaml;Resources\StringResource.en.xaml;Resources\StringResources.xaml;Templates\Libri\style.xaml;Views\AdminView.xaml;Views\BejelentkezesView.xaml;Views\CheckOutListAdminView.xaml;Views\CheckOutListView.xaml;Views\FizetesView.xaml;Views\KezdoKepernyoView.xaml;Views\PaymentMethodView.xaml;Views\PenztarmuveletekAdminView.xaml;Views\Penztarmuveletek\BeallitasokView.xaml;Views\Penztarmuveletek\BefizetesView.xaml;Views\Penztarmuveletek\BizonylatokView.xaml;Views\Penztarmuveletek\HangeroszabalyzoView.xaml;Views\Penztarmuveletek\KifizetesView.xaml;Views\Penztarmuveletek\RovancsView.xaml;Views\PromocioIdleView.xaml;Views\StartView.xaml;
+MainWindow.xaml;MessageBoxCustom.xaml;Resources\StringResource.de.xaml;Resources\StringResource.en.xaml;Resources\StringResources.xaml;Templates\Libri\style.xaml;Views\AdminView.xaml;Views\BejelentkezesView.xaml;Views\CheckOutListAdminView.xaml;Views\CheckOutListView.xaml;Views\FizetesView.xaml;Views\KezdoKepernyoView.xaml;Views\NyitokepernyoMuveletek\BeallitasokView.xaml;Views\NyitokepernyoMuveletek\EszkozokView.xaml;Views\NyitokepernyoMuveletek\NapnyitasView.xaml;Views\NyitokepernyoMuveletek\NapzarasView.xaml;Views\PaymentMethodView.xaml;Views\PenztarmuveletekAdminView.xaml;Views\Penztarmuveletek\BeallitasokView.xaml;Views\Penztarmuveletek\BefizetesView.xaml;Views\Penztarmuveletek\BizonylatokView.xaml;Views\Penztarmuveletek\HangeroszabalyzoView.xaml;Views\Penztarmuveletek\KifizetesView.xaml;Views\Penztarmuveletek\RovancsView.xaml;Views\PromocioIdleView.xaml;Views\PromocioView.xaml;Views\StartView.xaml;
 
 False
 

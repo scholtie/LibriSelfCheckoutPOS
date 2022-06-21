@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
         mc:Ignorable="d"
-             
         xmlns:controls="clr-namespace:LibriSelfCheckoutPOS.Views"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -26,16 +25,17 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="4*"/>
-            <RowDefinition Height="4*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <controls:PaymentMethodView Grid.ColumnSpan="2" Grid.Row="2"/>
+        <controls:PaymentMethodView Grid.ColumnSpan="2" Grid.Row="3"/>
         <!--<StackPanel Grid.ColumnSpan="2" Grid.Row="2"
   VerticalAlignment="Top" HorizontalAlignment="Left">
             <TextBlock
@@ -70,30 +70,31 @@
                              Grid.ColumnSpan="2"
                              Background="#f5f4eb">
         </materialDesign:Card>-->
-        <ScrollViewer VerticalScrollBarVisibility="Auto"
-                      Background="#f5f4eb"
+        <ListView
+            ManipulationBoundaryFeedback="OnManipulationBoundaryFeedback"
+            Background="#f5f4eb"
                       Grid.Row="1"
-                      Margin="16"
-                      Grid.ColumnSpan="2">
-            <ListView Margin="10" Name="lvDataBinding">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
-                        <GridViewColumn Header="Nr" Width="100" DisplayMemberBinding="{Binding ArticleNumber}" />
-                        <GridViewColumn Header="UnitPrice" Width="150" DisplayMemberBinding="{Binding UnitPrice}" />
-                        <GridViewColumn Header="Discount" Width="150" DisplayMemberBinding="{Binding Discount}" />
-                        <GridViewColumn Header="Value" Width="150" DisplayMemberBinding="{Binding Value}" />
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </ScrollViewer>
-        <Button Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
+                      Grid.ColumnSpan="2"
+            Margin="10" Name="lvDataBinding" ItemsSource="{Binding products}" FontSize="35">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
+                    <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
+                    <GridViewColumn Header="UnitPrice" Width="200" DisplayMemberBinding="{Binding productUnitPrice}" />
+                    <GridViewColumn Header="Discount" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
+                    <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
+                </GridView>
+            </ListView.View>
+            <!--<ListView.ItemContainerStyle>
+                </ListView.ItemContainerStyle>-->
+        </ListView>
+        <Button Style="{StaticResource Libri-button}" Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="4" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="{Binding getHelp}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
-        <Button Command="{Binding LanguageCommand}" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Command="{Binding LanguageCommand}" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="4" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="BookAlphabet" HorizontalAlignment="Center" Width="50" Height="50"/>
@@ -104,7 +105,7 @@
             VerticalAlignment="Bottom"
             Name="mégseBtn"
             Command="{Binding CancelCommand}"
-            Grid.Row="4"
+            Grid.Row="5"
             Grid.Column="0"
             Height="100px"
             FontSize="40"
@@ -118,11 +119,26 @@
                 </StackPanel>
             </Label>
         </Button>
-        <StackPanel
-            Grid.Row="4"
-            Grid.Column="1"
-            FocusManager.FocusedElement="{Binding ElementName=Box}">
-            <TextBox Name="Box" />
-        </StackPanel>
+        <TextBlock
+            TextAlignment="Right"
+            Grid.Row="2"
+            Height="100px"
+            Grid.ColumnSpan="2"
+            FontSize="50"
+            Margin="10 0 10 10"
+            Background="#FFDEDEDE">
+            <Label>
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <TextBlock FontSize="30" Text="{DynamicResource pay}">
+                        <TextBlock.TextEffects>
+                            <TextEffect PositionStart="0" PositionCount="1" Foreground="#e1aa68"/>
+                        </TextBlock.TextEffects>
+                    </TextBlock>
+                    <TextBlock Text="6666 Ft" FontSize="60" HorizontalAlignment="Right" VerticalAlignment="Stretch" FontWeight="Bold"/>
+                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="35" Height="35" />
+                </StackPanel>
+            </Label>
+        </TextBlock>
     </Grid>
 </UserControl>

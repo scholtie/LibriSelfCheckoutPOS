@@ -17,5 +17,9 @@ namespace LibriSelfCheckoutPOS.ViewModels
         {
             CancelCommand = new NavigateCommand(checkoutViewNavigationService);
         }
+
+        public PromocioIdleViewModel()
+        {
+        }
     }
 }

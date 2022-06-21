@@ -25,6 +25,18 @@
     <Compile Update="Views\KezdoKepernyoView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\NyitokepernyoMuveletek\BeallitasokView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NyitokepernyoMuveletek\EszkozokView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NyitokepernyoMuveletek\NapnyitasView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NyitokepernyoMuveletek\NapzarasView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\PaymentMethodView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -50,6 +62,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\PromocioIdleView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PromocioView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\StartView.xaml.cs">
@@ -90,6 +105,18 @@
     <Page Update="Views\KezdoKepernyoView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\NyitokepernyoMuveletek\BeallitasokView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NyitokepernyoMuveletek\EszkozokView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NyitokepernyoMuveletek\NapnyitasView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NyitokepernyoMuveletek\NapzarasView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\PaymentMethodView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -115,6 +142,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\PromocioIdleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PromocioView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\StartView.xaml">

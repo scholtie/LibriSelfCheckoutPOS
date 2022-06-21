@@ -1,20 +1,26 @@
 ﻿using KasszaWPF;
+using LibriSelfCheckoutPOS.ViewModels;
 using log4net;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Threading;
+using static LibriSelfCheckoutPOS.Models.DataModels;
 
 namespace LibriSelfCheckoutPOS.Views
 {
     /// <summary>
     /// Interaction logic for CheckOutListView.xaml
     /// </summary>
-    public partial class CheckOutListView : UserControl, INotifyPropertyChanged
+    public partial class CheckOutListView : UserControl
     {
         internal struct LASTINPUTINFO
         {
@@ -28,20 +34,42 @@ namespace LibriSelfCheckoutPOS.Views
         private double priceSum;
         private Boolean isFound = false;
         int checkoutQuantity;
-        ObservableCollection<ScannedProduct> products = new ObservableCollection<ScannedProduct>();
         public CheckOutListView()
         {
-            var lastInput = GetLastInputTime;
-            var startTimeSpan = TimeSpan.Zero;
-            var periodTimeSpan = TimeSpan.FromSeconds(5);
+            //var lastInput = GetLastInputTime;
+            //var startTimeSpan = TimeSpan.Zero;
+            //var periodTimeSpan = TimeSpan.FromSeconds(5);
 
-            var timer = new Timer((e) =>
-            {
-            }, null, startTimeSpan, periodTimeSpan);
+            //var timer = new Timer((e) =>
+            //{
+            //}, null, startTimeSpan, periodTimeSpan);
             InitializeComponent();
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
             //this.DataContext = this;
-            DataContext = this;
-            lvDataBinding.ItemsSource = products;
+            //DataContext = this;
+            //var vm = (CheckOutListViewModel)this.DataContext;
+            //if (vm != null)
+            //{
+            //    Thread thread = new Thread(() =>
+            //    {
+            //        while (true)
+            //        {
+            //            try
+            //            {
+            //                lvDataBinding.ItemsSource = vm.ProductList;
+            //            }
+            //            catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+            //        }
+            //    });
+            //    thread.IsBackground = true;
+            //    thread.SetApartmentState(ApartmentState.STA);
+            //    thread.Start();
+                
+            //}
+            //lvDataBinding.ItemsSource = vm.ProductList;
             //IdleTimeFinder.GetIdleTime();
             //while (!Console.KeyAvailable)
             //{
@@ -56,29 +84,85 @@ namespace LibriSelfCheckoutPOS.Views
             //Box.KeyDown += new KeyEventHandler(tb_KeyDown);
         }
 
-        [DllImport("user32.dll")]
-        static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
-
-        static uint GetLastInputTime()
+        void timer_Tick(object sender, EventArgs e)
         {
-            ILog log = LogManager.GetLogger(typeof(App));
-            uint idleTime = 0;
-            LASTINPUTINFO lastInputInfo = new LASTINPUTINFO();
-            lastInputInfo.cbSize = (uint)Marshal.SizeOf(lastInputInfo);
-            lastInputInfo.dwTime = 0;
-
-            uint envTicks = (uint)Environment.TickCount;
-
-            if (GetLastInputInfo(ref lastInputInfo))
+            var vm = (CheckOutListViewModel)this.DataContext;
+            if (vm != null)
             {
-                uint lastInputTick = lastInputInfo.dwTime;
-
-                idleTime = envTicks - lastInputTick;
+                if (GetLastUserInput.GetIdleTickCount() > 30000)
+                {
+                    log.Debug(GetLastUserInput.GetIdleTickCount());
+                    log.Debug(TimeSpan.FromTicks(300000000).TotalSeconds);
+                    vm.IdleCommand.Execute(null);
+                }
             }
-            return ((idleTime > 0) ? (idleTime / 1000) : 0);
+            
         }
 
+        public class GetLastUserInput
+        {
+            private struct LASTINPUTINFO
+            {
+                public uint cbSize;
+                public uint dwTime;
+            }
+            private static LASTINPUTINFO lastInPutNfo;
+            static GetLastUserInput()
+            {
+                lastInPutNfo = new LASTINPUTINFO();
+                lastInPutNfo.cbSize = (uint)Marshal.SizeOf(lastInPutNfo);
+            }
+            [DllImport("User32.dll")]
+            private static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
 
+            /// <summary>
+            /// Idle time in ticks
+            /// </summary>
+            /// <returns></returns>
+            public static uint GetIdleTickCount()
+            {
+                return ((uint)Environment.TickCount - GetLastInputTime());
+            }
+            /// <summary>
+            /// Last input time in ticks
+            /// </summary>
+            /// <returns></returns>
+            public static uint GetLastInputTime()
+            {
+                if (!GetLastInputInfo(ref lastInPutNfo))
+                {
+                    throw new Win32Exception(Marshal.GetLastWin32Error());
+                }
+                return lastInPutNfo.dwTime;
+            }
+        }
+
+        //[DllImport("user32.dll")]
+        //static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
+
+        //static uint GetLastInputTime()
+        //{
+        //    ILog log = LogManager.GetLogger(typeof(App));
+        //    uint idleTime = 0;
+        //    LASTINPUTINFO lastInputInfo = new LASTINPUTINFO();
+        //    lastInputInfo.cbSize = (uint)Marshal.SizeOf(lastInputInfo);
+        //    lastInputInfo.dwTime = 0;
+
+        //    uint envTicks = (uint)Environment.TickCount;
+
+        //    if (GetLastInputInfo(ref lastInputInfo))
+        //    {
+        //        uint lastInputTick = lastInputInfo.dwTime;
+
+        //        idleTime = envTicks - lastInputTick;
+        //    }
+        //    return ((idleTime > 0) ? (idleTime / 1000) : 0);
+        //}
+
+        private void OnManipulationBoundaryFeedback(object sender, ManipulationBoundaryFeedbackEventArgs e)
+        {
+            e.Handled = true;
+        }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
@@ -131,8 +215,12 @@ namespace LibriSelfCheckoutPOS.Views
             }
             else if (e.Key == Key.Enter)
             {
-                isFound = false;
-                SearchProduct(barcode);
+                
+                var vm = (CheckOutListViewModel)this.DataContext;
+                if (vm != null)
+                {
+                    vm.SearchProduct(barcode);
+                }
                 //Box.Text = "";
                 pressedKeys = "";
             }
@@ -155,163 +243,7 @@ namespace LibriSelfCheckoutPOS.Views
             MessageBox.Show(e.Text);
         }
 
-        private void SearchProduct(String barcode)
-        {
-            int counter = 0;
-            string line;
-            //int x = 0;
-
-            // Read the file and display it line by line.
-            //System.IO.StreamReader file = new System.IO.StreamReader("C:\\Users\\CJ\\Desktop\\cikk.txt");
-            System.IO.StreamReader file = new System.IO.StreamReader("cikk.txt");
-            while ((line = file.ReadLine()) != null)
-            {
-                string col = line.Split(';')[1];
-                //string colPrice = line.Split(';')[7];
-                if (col == barcode)
-                {
-                    isFound = true;
-                    log.Debug(counter.ToString() + ": " + line);
-                    products.Add(new ScannedProduct()
-                    {
-                        productName = line.Split(';')[3].ToString(),
-                        productArticleNumber = int.Parse(line.Split(';')[0]),
-                        productUnitPrice = double.Parse(line.Split(';')[7]),
-                        productDiscount = 10,
-                        productPrice = double.Parse(line.Split(';')[7]) - 10,
-                    });
-                    ProductNameCurrent = line.Split(';')[3].ToString();
-                    CheckoutQuantity += 1;
-                    ProductArticleNumberCurrent = int.Parse(line.Split(';')[0]);
-                    ProductPriceCurrent = double.Parse(line.Split(';')[7]) - 10;
-                    PriceSum += productPriceCurrent;
-                    log.Debug(products);
-                }
-
-                counter++;
-            }
-            if (isFound == false)
-            {
-                bool? Result = new MessageBoxCustom("Termék nem található!", MessageType.Info, MessageButtons.Ok).ShowDialog();
-
-                if (Result.Value)
-                {
-                    //Application.Current.Shutdown();
-                }
-            }
-
-            file.Close();
-
-        }
-
-        private string productNameCurrent;
-        private double productPriceCurrent;
-        private int productArticleNumberCurrent;
-        public string ProductNameCurrent
-        {
-            get { return productNameCurrent; }
-            set
-            {
-                productNameCurrent = value;
-                RaisePropertyChanged("ProductNameCurrent");
-            }
-        }
-        public int ProductArticleNumberCurrent
-        {
-            get { return productArticleNumberCurrent; }
-            set
-            {
-                productArticleNumberCurrent = value;
-                RaisePropertyChanged("ProductArticleNumberCurrent");
-            }
-        }
-        public double ProductPriceCurrent
-        {
-            get { return productPriceCurrent; }
-            set
-            {
-                productPriceCurrent = value;
-                RaisePropertyChanged("ProductPriceCurrent");
-            }
-        }
-
-        public double PriceSum
-        {
-            get { return priceSum; }
-            set
-            {
-                priceSum = value;
-                RaisePropertyChanged("PriceSum");
-            }
-        }
-
-        public int CheckoutQuantity
-        {
-            get { return checkoutQuantity; }
-            set
-            {
-                checkoutQuantity = value;
-                RaisePropertyChanged("CheckoutQuantity");
-            }
-        }
-
-
-        private void RaisePropertyChanged(string propName)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
-        }
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        //private void txtAssetTag_KeyPress(object sender, KeyEventArgs e)
-
-        //{
-        //    barcode = Box.Text;
-
-        //    SearchProduct(barcode);
-
-        //}
-
-
-        //private void tb_KeyDown(object sender, KeyEventArgs e)
-        //{
-        //    log.Debug(e.Key);
-        //    barcode = Box.Text;
-        //    if (e.Key == Key.Enter)
-        //    {
-        //        SearchProduct(barcode);
-        //        Box.Text = "";
-        //    }
-        //}
-
-        public class Item
-        {
-            public string Name { get; set; }
-            public int ArticleNumber { get; set; }
-            public double UnitPrice { get; set; }
-            public double Discount { get; set; }
-            public double Value { get; set; }
-
-            public override string ToString()
-            {
-                return Name + ", " + ArticleNumber + ", " + UnitPrice + " Ft" + ", " + Discount + " Ft" + ", " + Value + " Ft";
-            }
-        }
-
-        public class ScannedProduct
-        {
-            public string productName { get; set; }
-            public int productArticleNumber { get; set; }
-            public double productPrice { get; set; }
-            public double productUnitPrice { get; set; }
-            public double productDiscount { get; set; }
-
-            public override string ToString()
-            {
-                return productName + ", " + productArticleNumber + ", " + productPrice + productUnitPrice + productDiscount;
-            }
-
-        }
+        
     }
 
 }

@@ -11,7 +11,7 @@
         WindowState="Maximized"
         WindowStyle="None"
         ResizeMode="NoResize"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:views1="clr-namespace:LibriSelfCheckoutPOS.Views.Penztarmuveletek"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:views1="clr-namespace:LibriSelfCheckoutPOS.Views.Penztarmuveletek" xmlns:views2="clr-namespace:LibriSelfCheckoutPOS.Views.NyitokepernyoMuveletek"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
      TextElement.FontWeight="Regular"
      TextElement.FontSize="13"
@@ -66,6 +66,21 @@
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodels:PromocioIdleViewModel}">
                 <views:PromocioIdleView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BeallitasokNyitoViewModel}">
+                <views2:BeallitasokView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:EszkozokViewModel}">
+                <views2:EszkozokView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:NapnyitasViewModel}">
+                <views2:NapnyitasView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:NapzarasViewModel}">
+                <views2:NapzarasView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:PromocioViewModel}">
+                <views:PromocioView/>
             </DataTemplate>
         </ContentControl.Resources>
     </ContentControl>
