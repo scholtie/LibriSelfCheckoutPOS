@@ -59,11 +59,32 @@
                              Background="#f5f4eb">
         </materialDesign:Card>-->
         <ListView
+            x:Name="productList"
             SelectedItem="{Binding SelectedProduct}"
-            Background="#f5f4eb"
-                      Grid.Row="1"
-                      Grid.ColumnSpan="2" FontSize="35"
-            Margin="10" ItemsSource="{Binding FelvettCikkek}" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            FontSize="35"
+            Margin="10"
+            ItemsSource="{Binding FelvettCikkek}"
+            HorizontalAlignment="Left"
+            HorizontalContentAlignment="Left">
+            <ListView.Resources>
+                <!--<Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding productIsDeleted}" Value="true">
+                            <Setter Property="Background" Value="red" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>-->
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="ListView.Background" Value="Blue" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=productIsDeleted}" Value="True">
+                            <Setter Property="ListView.Background" Value="Yellow" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
@@ -73,17 +94,28 @@
                     <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
                 </GridView>
             </ListView.View>
-            <ListView.Resources>
+            <!--<ListView.Resources>
                 <Style TargetType="{x:Type ListViewItem}">
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding productIsDeleted}"
-                      Value="True">
-                            <Setter Property="Foreground"
+                        <DataTrigger Binding="{Binding productName}"
+                      Value="MIESKO 1DB KAVE">
+                            <Setter Property="Background"
                   Value="Red" />
                         </DataTrigger>
                     </Style.Triggers>
                 </Style>
-            </ListView.Resources>
+            </ListView.Resources>-->
+            <!--<ListView.Resources>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding productDiscount}"
+                      Value="10">
+                            <Setter Property="ListViewItem.Background"
+                  Value="Red" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>-->
         </ListView>
         <Button
             IsEnabled="{Binding PaymentEnabled}"
@@ -105,7 +137,7 @@
         </Button>
         <Button
             IsEnabled="{Binding PaymentEnabled}"
-            Command="{Binding ClickCommand}"
+            Command="{Binding CikkKeresesCommand}"
             VerticalAlignment="Center"
             Name="cikkeresésBtn"
             Grid.Row="2"

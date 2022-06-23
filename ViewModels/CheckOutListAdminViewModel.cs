@@ -14,11 +14,13 @@ namespace LibriSelfCheckoutPOS.ViewModels
         
         private ICommand _torlesCommand;
         public String Harf { get; set; } = new string("1");
-        public ObservableCollection<ScannedProduct> FelvettCikkek { get; set; } = new ObservableCollection<ScannedProduct>(App.FelvettCikkek.Values.ToList());
+        public ObservableCollection<ScannedProduct> FelvettCikkek { get; set; } = new ObservableCollection<ScannedProduct>(App.BookList);
         public ICommand CancelCommand { get; }
-        public CheckOutListAdminViewModel(NavigationService checkoutViewNavigationService)
+        public ICommand CikkKeresesCommand { get; }
+        public CheckOutListAdminViewModel(NavigationService checkoutViewNavigationService, NavigationService cikkKeresesViewNavigationService)
         {
             CancelCommand = new NavigateCommand(checkoutViewNavigationService);
+            CikkKeresesCommand = new NavigateCommand(cikkKeresesViewNavigationService);
         }
 
         public ICommand TorlesCommand

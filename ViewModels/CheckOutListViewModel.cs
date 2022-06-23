@@ -21,11 +21,12 @@ namespace LibriSelfCheckoutPOS.ViewModels
         public ObservableCollection<ScannedProduct> ProductList { get; set; } =
             new ObservableCollection<ScannedProduct>();
         public ObservableCollection<ScannedProduct> FelvettCikkek { get; set; } = new ObservableCollection<ScannedProduct>(App.BookList);
-        private double priceSum;
+        private double priceSum = App.BookList.Where(c => c.productIsDeleted == false).Select(c => c.productPrice).Sum();
         private Boolean isFound = false;
-        int checkoutQuantity;
+        int checkoutQuantity = App.BookList.Where(c => c.productIsDeleted == false).Count();
         public ObservableCollection<ScannedProduct> products = new ObservableCollection<ScannedProduct>();
         private ICommand _clickCommand;
+        public ICommand _helpCommand;
         private bool canPay = true;
         //ILog log = LogManager.GetLogger(typeof(App));
         //private string barcode;
@@ -49,6 +50,13 @@ namespace LibriSelfCheckoutPOS.ViewModels
             get
             {
                 return _clickCommand ??= new CommandHandler(() => MyAction(), () => CanExecute);
+            }
+        }
+        public ICommand HelpCommand
+        {
+            get
+            {
+                return _helpCommand ??= new CommandHandler(() => HelpAction(), () => CanExecute);
             }
         }
         public static bool CanExecute
@@ -76,6 +84,18 @@ namespace LibriSelfCheckoutPOS.ViewModels
             p.Dispose();
 
         }
+        
+        public void HelpAction()
+        {
+            App.IsMessageBoxOpen = true;
+            bool? Result = new MessageBoxCustom("Kérjük várjon munkatársunk megérkezéséig", MessageType.Warning, MessageButtons.Alert).ShowDialog();
+
+            if (Result.Value)
+            {
+                AdminCommand.Execute(null);
+                App.IsMessageBoxOpen=false;
+            }
+        }
 
         public ICommand AdminCommand { get; }
         public ICommand FizetesCommand { get; }
@@ -92,13 +112,13 @@ namespace LibriSelfCheckoutPOS.ViewModels
         {
             ILog log = LogManager.GetLogger(typeof(App));
             isFound = false;
-            if (App.FelvettCikkek.Count > 0)
+            if (App.BookList.Count > 0)
             {
-                counter = App.FelvettCikkek.Count;
+                counter = App.BookList.Count + 1;
             }
             else
             {
-                counter = 0;
+                counter = 1;
             }
             string line;
             //int x = 0;
@@ -112,60 +132,51 @@ namespace LibriSelfCheckoutPOS.ViewModels
                 //string colPrice = line.Split(';')[7];
                 if (col == barcode)
                 {
-                    isFound = true;
-                    ProductList.Add(new ScannedProduct()
+                    if (col == "5901299910948" || col == "5999884034445" || col == "1")
                     {
-                        productId = counter,
-                        productName = line.Split(';')[3].ToString(),
-                        productArticleNumber = int.Parse(line.Split(';')[0]),
-                        productUnitPrice = double.Parse(line.Split(';')[7]),
-                        productDiscount = 10,
-                        productPrice = double.Parse(line.Split(';')[7]) - 10,
-                    });
-                    FelvettCikkek.Add( new ScannedProduct()
+                        AdminCommand.Execute(null);
+                        isFound = true;
+                    }
+                    else
                     {
-                        productId = counter,
-                        productName = line.Split(';')[3].ToString(),
-                        productArticleNumber = int.Parse(line.Split(';')[0]),
-                        productUnitPrice = double.Parse(line.Split(';')[7]),
-                        productDiscount = 10,
-                        productPrice = double.Parse(line.Split(';')[7]) - 10,
-                        productIsDeleted = false
-                    });
-                    App.FelvettCikkek.Add(counter, new ScannedProduct()
-                    {
-                        productId = counter,
-                        productName = line.Split(';')[3].ToString(),
-                        productArticleNumber = int.Parse(line.Split(';')[0]),
-                        productUnitPrice = double.Parse(line.Split(';')[7]),
-                        productDiscount = 10,
-                        productPrice = double.Parse(line.Split(';')[7]) - 10,
-                        productIsDeleted = false
-                    });
-                    App.BookList.Add(new ScannedProduct()
-                    {
-                        productId = counter,
-                        productName = line.Split(';')[3].ToString(),
-                        productArticleNumber = int.Parse(line.Split(';')[0]),
-                        productUnitPrice = double.Parse(line.Split(';')[7]),
-                        productDiscount = 10,
-                        productPrice = double.Parse(line.Split(';')[7]) - 10,
-                        productIsDeleted = false
-                    });
-                    ProductNameCurrent = line.Split(';')[3].ToString();
-                    CheckoutQuantity += 1;
-                    ProductArticleNumberCurrent = int.Parse(line.Split(';')[0]);
-                    ProductPriceCurrent = double.Parse(line.Split(';')[7]) - 10;
-                    App.OsszAr.Add(counter, double.Parse(line.Split(';')[7]) - 10);
-                    PriceSum = App.OsszAr.Values.Sum();
-                    CheckoutQuantity = App.OsszAr.Values.Count();
-                    //ProductList = App.OsszesCikk.TryGe;
-                    //var keys = new List<ScannedProduct>(App.FelvettCikkek.Keys)
-                    //ProductList.Add(keys);
-                    //log.Debug(ProductList);
-                    log.Debug(App.BookList);
-                    counter+=1;
-                    log.Debug(App.OsszAr);
+                        isFound = true;
+                        FelvettCikkek.Add(new ScannedProduct()
+                        {
+                            productId = counter,
+                            productName = line.Split(';')[3].ToString(),
+                            productArticleNumber = int.Parse(line.Split(';')[0]),
+                            productUnitPrice = double.Parse(line.Split(';')[7]),
+                            productDiscount = 10,
+                            productPrice = double.Parse(line.Split(';')[7]) - 10,
+                            productIsDeleted = false
+                        });
+                        App.BookList.Add(new ScannedProduct()
+                        {
+                            productId = counter,
+                            productName = line.Split(';')[3].ToString(),
+                            productArticleNumber = int.Parse(line.Split(';')[0]),
+                            productUnitPrice = double.Parse(line.Split(';')[7]),
+                            productDiscount = 10,
+                            productPrice = double.Parse(line.Split(';')[7]) - 10,
+                            productIsDeleted = false
+                        });
+                        ProductNameCurrent = line.Split(';')[3].ToString();
+                        CheckoutQuantity += 1;
+                        ProductArticleNumberCurrent = int.Parse(line.Split(';')[0]);
+                        ProductPriceCurrent = double.Parse(line.Split(';')[7]) - 10;
+                        //App.OsszAr.Add(counter, double.Parse(line.Split(';')[7]) - 10);
+                        var res = App.BookList.Where(c => c.productIsDeleted == false);
+                        //PriceSum = App.OsszAr.Values.Sum();
+                        PriceSum = res.Select(c => c.productPrice).Sum();
+                        CheckoutQuantity = App.BookList.Where(c => c.productIsDeleted == false).Count();
+                        //ProductList = App.OsszesCikk.TryGe;
+                        //var keys = new List<ScannedProduct>(App.FelvettCikkek.Keys)
+                        //ProductList.Add(keys);
+                        //log.Debug(ProductList);
+                        log.Debug(App.BookList);
+                        counter += 1;
+                        //log.Debug(App.OsszAr);
+                    }
                 }
 
             }
@@ -183,9 +194,9 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         }
 
-        private string productNameCurrent;
-        private double productPriceCurrent;
-        private int productArticleNumberCurrent;
+        private string productNameCurrent = App.PassedScannedProduct.productName;
+        private double productPriceCurrent = App.PassedScannedProduct.productPrice;
+        private int productArticleNumberCurrent = App.PassedScannedProduct.productArticleNumber;
         public string ProductNameCurrent
         {
             get { return productNameCurrent; }
@@ -262,24 +273,5 @@ namespace LibriSelfCheckoutPOS.ViewModels
         //        Box.Text = "";
         //    }
         //}
-
-        public class Item
-        {
-            public string Name { get; set; }
-            public int ArticleNumber { get; set; }
-            public double UnitPrice { get; set; }
-            public double Discount { get; set; }
-            public double Value { get; set; }
-
-            public override string ToString()
-            {
-                return Name + ", " + ArticleNumber + ", " + UnitPrice + " Ft" + ", " + Discount + " Ft" + ", " + Value + " Ft";
-            }
-        }
-
-        
-
-        
-
     }
 }

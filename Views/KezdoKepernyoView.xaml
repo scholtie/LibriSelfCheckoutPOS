@@ -103,6 +103,7 @@
             </Label>
         </Button>
         <Button
+            IsEnabled="{Binding ButtonEnabled}"
             Command="{Binding EszkozokCommand}"
             Name="eszkozokBtn"
             Grid.Row="2"
@@ -119,6 +120,7 @@
             </Label>
         </Button>
         <Button
+            IsEnabled="{Binding ButtonEnabled}"
             Command="{Binding BeallitasokCommand}"
             Name="beallitasokBtn"
             Grid.Row="3"
@@ -150,21 +152,22 @@
                 </StackPanel>
             </Label>
         </Button>
-        <TextBlock Text="Dátum" 
+        <TextBlock
                    Grid.Row="4" Grid.Column="0" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom" 
                    FontSize="40" 
                    Margin="10 10 10 10"
-        />
-        <TextBlock Text="Felhasználó" 
+        ><Label Name="LiveTimeLabel" Content="%TIME%" HorizontalAlignment="Left" VerticalAlignment="Bottom"  FontSize="30" FontWeight="Bold" /></TextBlock>
+        
+        <TextBlock Text="{Binding UserName}"
                    Grid.Row="4" Grid.Column="1" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom" 
                    FontSize="40" 
                    Margin="10 10 10 10"
         />
-        <TextBlock Text="Pénztárgép" 
+        <TextBlock Text="{Binding UserPermission}"
                    Grid.Row="4" Grid.Column="2" 
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom" 

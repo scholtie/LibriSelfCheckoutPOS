@@ -2,10 +2,12 @@
 using LibriSelfCheckoutPOS.Commands;
 using LibriSelfCheckoutPOS.Services;
 using LibriSelfCheckoutPOS.Stores;
+using log4net;
 using System;
 using System.Threading;
 using System.Windows;
 using System.Windows.Input;
+using static LibriSelfCheckoutPOS.Models.DataModels;
 
 namespace LibriSelfCheckoutPOS.ViewModels
 {
@@ -43,29 +45,21 @@ namespace LibriSelfCheckoutPOS.ViewModels
                     isFound = true;
                     if (barcode == "5901299910948" || barcode == "5999884034445" || barcode == "1")
                     {
-                        user = new User() { Name = line.Split(';')[2].ToString(), Permission = 1 };
-                        //Thread thread = new Thread(() =>
-                        //{
-                        //    while (true)
-                        //    {
-                        //        try
-                        //        {
-                        //            LoginCommand.Execute(null);
-                        //        }
-                        //        catch (Exception ex) { MessageBox.Show(ex.ToString()); }
-                        //    }
-                        //});
-                        //thread.IsBackground = true;
-                        //thread.SetApartmentState(ApartmentState.STA);
-                        //thread.Start();
+                        var permission = int.Parse(line.Split(';')[14]);
+                        var isAdmin = false;
+                        if (permission > 1)
+                        {
+                            isAdmin = true;
+                        }
+                        else
+                        {
+                            isAdmin = false;
+                        }
+                        user = new User() { Name = line.Split(';')[3].ToString(), Permission = permission, IsAdmin=isAdmin };
+                        //line.Split(';')[2].ToString()
+                        //int.Parse(line.Split(';')[13])
+                        App.User = user;
                         LoginCommand.Execute(null);
-
-                        //bool? Result = new MessageBoxCustom(user.Name, MessageType.Info, MessageButtons.Ok).ShowDialog();
-
-                        //if (Result.Value)
-                        //{
-                        //    //Application.Current.Shutdown();
-                        //}
                     }
 
                 }
@@ -86,15 +80,6 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         }
 
-        public class User
-        {
-            public string Name { get; set; }
-            public int Permission { get; set; }
-
-            public override string ToString()
-            {
-                return Name + ", " + Permission;
-            }
-        }
+        
     }
 }

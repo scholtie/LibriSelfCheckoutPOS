@@ -36,7 +36,7 @@
         </Grid.ColumnDefinitions>
         <materialDesign:Card Padding="32" Margin="16"
                              Grid.ColumnSpan="3">
-            <Image Width="auto" Height="auto" Style="{StaticResource Libri-img}" Source="//Templates/Libri/Assets/logo.png" StretchDirection="Both" Stretch="Uniform" />
+            <Image Width="auto" Height="auto" Style="{StaticResource Libri-img}" Source="/Resources/logo.png" StretchDirection="Both" Stretch="Uniform" />
         </materialDesign:Card>
         <StackPanel Orientation="Vertical"
                     Grid.Column="0"

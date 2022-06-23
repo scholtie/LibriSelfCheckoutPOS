@@ -28,11 +28,11 @@ namespace LibriSelfCheckoutPOS.Views
             InitializeComponent();
             //Box.KeyDown += new KeyEventHandler(tb_KeyDown);
             //SearchProduct();
-            List<Item> items = new List<Item>();
-            items.Add(new Item() { Name = "Könyv1", ArticleNumber=43242, UnitPrice= 4599, Discount=300, Value=4299 });
-            items.Add(new Item() { Name = "Könyv2", ArticleNumber = 4324322, UnitPrice = 5599, Discount = 300, Value = 5299 });
-            items.Add(new Item() { Name = "Könyv3", ArticleNumber = 4324212, UnitPrice = 6599, Discount = 300, Value = 6299 });
-            lvDataBinding.ItemsSource = items;
+            //List<Item> items = new List<Item>();
+            //items.Add(new Item() { Name = "Könyv1", ArticleNumber=43242, UnitPrice= 4599, Discount=300, Value=4299 });
+            //items.Add(new Item() { Name = "Könyv2", ArticleNumber = 4324322, UnitPrice = 5599, Discount = 300, Value = 5299 });
+            //items.Add(new Item() { Name = "Könyv3", ArticleNumber = 4324212, UnitPrice = 6599, Discount = 300, Value = 6299 });
+            //lvDataBinding.ItemsSource = items;
             //MainWindow win = (MainWindow)Window.GetWindow(this);
             //win.SetLanguageDictionary("en");
         }

@@ -9,6 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\1234.avi" />
+    <None Remove="Resources\header_veg.jpg" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Views\libri_logo_toshare.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\1234.avi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\header_veg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\libri_logo_toshare.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.14" />
     <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
   </ItemGroup>
@@ -18,7 +40,6 @@
     <Folder Include="ViewModels\Ertekesitesfunkciok\" />
     <Folder Include="ViewModels\NyitokepernyoMuveletek\" />
     <Folder Include="ViewModels\Penztarmuveletek\" />
-    <Folder Include="Views\Ertekesitesfunkciok\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -113,3 +113,12 @@ E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\ne
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\ref\LibriSelfCheckoutPOS.dll
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\PromocioView.g.cs
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\PromocioView.baml
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\LibriSelfCheckoutPOS_Content.g.cs
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\Resources\libri_logo_toshare.png
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\Resources\header_veg.jpg
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\Resources\1234.avi
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\bin\Debug\net6.0-windows\Resources\logo.png
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\Ertekesitesfunkciok\CikkKeresesView.g.cs
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\Ertekesitesfunkciok\CikkKeresesView.baml
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\FinalView.g.cs
+E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\obj\Debug\net6.0-windows\Views\FinalView.baml

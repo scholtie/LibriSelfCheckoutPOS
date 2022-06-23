@@ -12,36 +12,58 @@
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
-        FontFamily="{DynamicResource MaterialDesignFont}">
-    <Grid Name="MainGrid">
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Opacity="0.4" ImageSource="/Resources/header_veg.jpg"></ImageBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <materialDesign:Card Padding="32" Margin="16"
+                             Grid.ColumnSpan="3"
+                             Grid.Row="0">
+            <Image Width="540" Height="auto" Source="/Resources/libri_logo_toshare.png" StretchDirection="Both" Stretch="Uniform" HorizontalAlignment="Right"/>
+        </materialDesign:Card>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2" >
+            <TextBlock Text="Üdvözöljük a boltunkban!" Foreground="#e1aa68" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Width="auto" Height="auto"></TextBlock>
+        </StackPanel>
+        <materialDesign:Card Padding="32" Margin="16"
+                             Grid.ColumnSpan="3"
+                                 Grid.Row="2">
+
+            <MediaElement x:Name="demovideo" Height="auto" Width="auto" Source="1234.avi" IsMuted="True" LoadedBehavior="Play" Stretch="Uniform" ScrubbingEnabled="True" Visibility="Visible" HorizontalAlignment="Center"/>
+        </materialDesign:Card>
+
 
         <Button
-            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
-            VerticalAlignment="Bottom"
-            Name="mégseBtn"
             Command="{Binding CancelCommand}"
-            Grid.Row="1"
-            Grid.Column="0"
+            Name="visszáruBtn"
+            Grid.Row="3"
+            Grid.Column="1"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
             Height="200px"
             FontSize="60"
-            Margin="10 10 10 10"
+            Margin="10 10 10 0"
             materialDesign:ButtonAssist.CornerRadius="100"
-            Cursor="Arrow" Background="#FFFBABAB" BorderBrush="White">
+            Cursor="Arrow" Background="White" BorderBrush="White">
             <Label>
-                <StackPanel Orientation="Horizontal"
-                            >
-                    <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
-                    <TextBlock Foreground="#FFE16868" Text="{DynamicResource login}"/>
-                    <!--<TextBlock Text="issza"/>-->
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#e1aa68" Text="V"/>
+                    <TextBlock Text="ásárlás kezdése"/>
+                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="50" Height="50" />
                 </StackPanel>
             </Label>
+
         </Button>
     </Grid>
 </UserControl>

@@ -24,6 +24,18 @@ namespace LibriSelfCheckoutPOS.Models
 
         }
 
+        public class User
+        {
+            public string Name { get; set; }
+            public int Permission { get; set; }
+            public bool IsAdmin { get; set; }
+
+            public override string ToString()
+            {
+                return Name + ", " + Permission + ", " + IsAdmin;
+            }
+        }
+
         public class AllProducts
         {
             public int Id { get; set; }

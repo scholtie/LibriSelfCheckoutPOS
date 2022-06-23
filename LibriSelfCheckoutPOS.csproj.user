@@ -19,6 +19,12 @@
     <Compile Update="Views\CheckOutListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Ertekesitesfunkciok\CikkKeresesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FinalView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\FizetesView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -97,6 +103,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\CheckOutListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Ertekesitesfunkciok\CikkKeresesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FinalView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\FizetesView.xaml">

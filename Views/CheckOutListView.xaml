@@ -114,7 +114,6 @@
         <ListView
             ManipulationBoundaryFeedback="OnManipulationBoundaryFeedback"
             Name ="productsList"
-            Background="#f5f4eb"
                       Grid.Row="1"
                       Grid.ColumnSpan="2" FontSize="35"
             Margin="10" 
@@ -122,6 +121,7 @@
             ItemsSource="{Binding FelvettCikkek}" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
             <ListView.View>
                 <GridView>
+                    <GridViewColumn Header="ID" Width="100" DisplayMemberBinding="{Binding productId}" />
                     <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding productName}" />
                     <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
                     <GridViewColumn Header="UnitPrice" Width="200" DisplayMemberBinding="{Binding productUnitPrice}" />
@@ -129,17 +129,6 @@
                     <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
                 </GridView>
             </ListView.View>
-            <ListView.Resources>
-                <Style TargetType="{x:Type ListViewItem}">
-                    <Style.Triggers>
-                        <DataTrigger Binding="{Binding productIsDeleted}"
-                      Value="True">
-                            <Setter Property="Background"
-                  Value="Red" />
-                        </DataTrigger>
-                    </Style.Triggers>
-                </Style>
-            </ListView.Resources>
         </ListView>
         <!--<StackPanel
             Grid.Row="0"
@@ -147,7 +136,7 @@
             FocusManager.FocusedElement="{Binding ElementName=Box}">
             <TextBox Name="Box" />
         </StackPanel>-->
-        <Button Style="{StaticResource Libri-button}" Command="{Binding AdminCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Command="{Binding HelpCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="3" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
             <!--<StackPanel>
                 <TextBlock Text="Segítségkérés" HorizontalAlignment="Center" FontSize="18"/>
                 

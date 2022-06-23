@@ -36,52 +36,11 @@ namespace LibriSelfCheckoutPOS.Views
         int checkoutQuantity;
         public CheckOutListView()
         {
-            //var lastInput = GetLastInputTime;
-            //var startTimeSpan = TimeSpan.Zero;
-            //var periodTimeSpan = TimeSpan.FromSeconds(5);
-
-            //var timer = new Timer((e) =>
-            //{
-            //}, null, startTimeSpan, periodTimeSpan);
             InitializeComponent();
             DispatcherTimer timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += timer_Tick;
             timer.Start();
-            //this.DataContext = this;
-            //DataContext = this;
-            //var vm = (CheckOutListViewModel)this.DataContext;
-            //if (vm != null)
-            //{
-            //    Thread thread = new Thread(() =>
-            //    {
-            //        while (true)
-            //        {
-            //            try
-            //            {
-            //                lvDataBinding.ItemsSource = vm.ProductList;
-            //            }
-            //            catch (Exception ex) { MessageBox.Show(ex.ToString()); }
-            //        }
-            //    });
-            //    thread.IsBackground = true;
-            //    thread.SetApartmentState(ApartmentState.STA);
-            //    thread.Start();
-                
-            //}
-            //lvDataBinding.ItemsSource = vm.ProductList;
-            //IdleTimeFinder.GetIdleTime();
-            //while (!Console.KeyAvailable)
-            //{
-            //    //Thread.Sleep(500);
-            //    idle = GetIdleTime();
-            //    log.Debug(idle);
-            //    if (idle > 500)
-            //    {
-            //        Application.Current.Shutdown();
-            //    }
-            //}
-            //Box.KeyDown += new KeyEventHandler(tb_KeyDown);
         }
 
         void timer_Tick(object sender, EventArgs e)
@@ -93,7 +52,11 @@ namespace LibriSelfCheckoutPOS.Views
                 {
                     log.Debug(GetLastUserInput.GetIdleTickCount());
                     log.Debug(TimeSpan.FromTicks(300000000).TotalSeconds);
-                    vm.IdleCommand.Execute(null);
+                    if (App.BookList.Count == 0 && App.IsMessageBoxOpen == false)
+                    {
+                        vm.IdleCommand.Execute(null);
+                    }
+                    
                 }
             }
             
@@ -115,18 +78,11 @@ namespace LibriSelfCheckoutPOS.Views
             [DllImport("User32.dll")]
             private static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
 
-            /// <summary>
-            /// Idle time in ticks
-            /// </summary>
-            /// <returns></returns>
             public static uint GetIdleTickCount()
             {
                 return ((uint)Environment.TickCount - GetLastInputTime());
             }
-            /// <summary>
-            /// Last input time in ticks
-            /// </summary>
-            /// <returns></returns>
+
             public static uint GetLastInputTime()
             {
                 if (!GetLastInputInfo(ref lastInPutNfo))
@@ -136,28 +92,6 @@ namespace LibriSelfCheckoutPOS.Views
                 return lastInPutNfo.dwTime;
             }
         }
-
-        //[DllImport("user32.dll")]
-        //static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
-
-        //static uint GetLastInputTime()
-        //{
-        //    ILog log = LogManager.GetLogger(typeof(App));
-        //    uint idleTime = 0;
-        //    LASTINPUTINFO lastInputInfo = new LASTINPUTINFO();
-        //    lastInputInfo.cbSize = (uint)Marshal.SizeOf(lastInputInfo);
-        //    lastInputInfo.dwTime = 0;
-
-        //    uint envTicks = (uint)Environment.TickCount;
-
-        //    if (GetLastInputInfo(ref lastInputInfo))
-        //    {
-        //        uint lastInputTick = lastInputInfo.dwTime;
-
-        //        idleTime = envTicks - lastInputTick;
-        //    }
-        //    return ((idleTime > 0) ? (idleTime / 1000) : 0);
-        //}
 
         private void OnManipulationBoundaryFeedback(object sender, ManipulationBoundaryFeedbackEventArgs e)
         {
@@ -221,7 +155,6 @@ namespace LibriSelfCheckoutPOS.Views
                 {
                     vm.SearchProduct(barcode);
                 }
-                //Box.Text = "";
                 pressedKeys = "";
             }
             else
@@ -229,7 +162,6 @@ namespace LibriSelfCheckoutPOS.Views
                 pressedKeys += e.Key;
             }
             log.Debug(pressedKeys);
-            //barcode = e.Key.ToString();
             barcode = pressedKeys;
         }
 

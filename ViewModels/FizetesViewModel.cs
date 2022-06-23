@@ -2,18 +2,38 @@
 using LibriSelfCheckoutPOS.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using static LibriSelfCheckoutPOS.Models.DataModels;
 
 namespace LibriSelfCheckoutPOS.ViewModels
 {
     internal class FizetesViewModel : ViewModelBase
     {
+        public ObservableCollection<ScannedProduct> FelvettCikkek { get; set; } = new ObservableCollection<ScannedProduct>(App.BookList);
+        private double priceSum = App.BookList.Where(c => c.productIsDeleted == false).Select(c => c.productPrice).Sum();
         private ICommand _languageCommand;
+        public ICommand _payCommand;
         private bool canChange = true;
+
+        public ICommand PayCommand
+        {
+            get
+            {
+                return _payCommand ??= new CommandHandler(() => PayAndEmptyList(), () => CanExecute);
+            }
+        }
+
+        public void PayAndEmptyList()
+        {
+            App.BookList.Clear();
+            SuccessCommand.Execute(null);
+        }
         public Boolean PaymentEnabled
         {
             get { return canChange; }
@@ -47,11 +67,22 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         }
 
+        public double PriceSum
+        {
+            get { return priceSum; }
+            set
+            {
+                priceSum = value;
+            }
+        }
+
         public string getHelp = "Segítségkérés";
         public ICommand CancelCommand { get; }
-        public FizetesViewModel(NavigationService cancelNavigationService)
+        public ICommand SuccessCommand { get; }
+        public FizetesViewModel(NavigationService cancelNavigationService, NavigationService successNavigationService)
         {
             CancelCommand = new NavigateCommand(cancelNavigationService);
+            SuccessCommand = new NavigateCommand(successNavigationService);
         }
     }
 }
