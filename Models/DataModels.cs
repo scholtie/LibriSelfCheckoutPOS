@@ -11,6 +11,7 @@ namespace LibriSelfCheckoutPOS.Models
         public class ScannedProduct
         {
             public int productId { get; set; }
+            public string productBarcode { get; set; }
             public string productName { get; set; }
             public int productArticleNumber { get; set; }
             public double productPrice { get; set; }
@@ -19,7 +20,7 @@ namespace LibriSelfCheckoutPOS.Models
             public Boolean productIsDeleted { get; set; }
             public override string ToString()
             {
-                return productId + productName + ", " + productArticleNumber + ", " + productPrice + ", " + productUnitPrice + ", " + productDiscount + ", " + productIsDeleted;
+                return productId + productName + ", " + productBarcode + ", " + productArticleNumber + ", " + productPrice + ", " + productUnitPrice + ", " + productDiscount + ", " + productIsDeleted;
             }
 
         }

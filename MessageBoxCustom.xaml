@@ -9,7 +9,7 @@
         ResizeMode="NoResize" Topmost="True" ShowInTaskbar="False"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
-        Background="{DynamicResource MaterialDesignPaper}"
+        Background="#FFD6D6D6"
         TextElement.FontWeight="Regular"
         TextElement.FontSize="20"
         TextOptions.TextFormattingMode="Ideal"
@@ -25,7 +25,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <materialDesign:Card x:Name="cardHeader" Grid.Row="0" Padding="10" Margin="0" materialDesign:ShadowAssist.ShadowDepth="Depth5"   Background="{DynamicResource PrimaryHueLightBrush}" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Visibility="Visible" Grid.ColumnSpan="2">
+        <materialDesign:Card x:Name="cardHeader" Grid.Row="0" Padding="10" Margin="0" materialDesign:ShadowAssist.ShadowDepth="Depth5"   Background="#FFFF7171" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Visibility="Visible" Grid.ColumnSpan="2">
             <StackPanel>
                 <TextBlock x:Name="txtTitle" HorizontalAlignment="Center" VerticalAlignment="Stretch" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontSize="20" >Message Title</TextBlock>
             </StackPanel>
@@ -66,13 +66,26 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:Name="btnOk" FontSize="40" Click="btnOk_Click" Grid.Column="1" Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    <Button x:Name="btnOk"
+                            FontSize="40"
+                            Click="btnOk_Click"
+                            Grid.Column="1"
+                            Style="{StaticResource MaterialDesignRaisedLightButton}"
             materialDesign:ButtonAssist.CornerRadius="10"
             Cursor="Arrow" Background="#f5f4eb" BorderBrush="White" Margin="5" Height="100" Width="150" IsDefault="True" Content="Ok" ToolTip="Ok">
                     </Button>
-                    <Button x:Name="btnCancel" Click="btnCancel_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="120" IsCancel="True" Content="Cancel" ToolTip="Cancel"/>
-                    <Button x:Name="btnYes" Click="btnYes_Click" Grid.Column="1" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="120" IsDefault="True" Content="Igen (Enter)" ToolTip="Igen"/>
-                    <Button x:Name="btnNo" Click="btnNo_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Width="120" IsCancel="True" Content="Nem (Esc)" ToolTip="Nem"/>
+                    <Button FontSize="40" x:Name="btnCancel" Click="btnCancel_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" 
+                            materialDesign:ButtonAssist.CornerRadius="10"
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White" Margin="5" Height="100" Width="150" 
+                            IsCancel="True" Content="Cancel" ToolTip="Cancel"/>
+                    <Button FontSize="40" x:Name="btnYes" Click="btnYes_Click" Grid.Column="1" Style="{StaticResource MaterialDesignRaisedButton}" 
+                            materialDesign:ButtonAssist.CornerRadius="10"
+            Cursor="Arrow"  Background="#f5f4eb" BorderBrush="White" Margin="5" Height="100" Width="150" 
+                            IsDefault="True" Content="Igen" ToolTip="Igen"/>
+                    <Button x:Name="btnNo" Click="btnNo_Click" Grid.Column="2" Style="{StaticResource MaterialDesignRaisedButton}" 
+                            materialDesign:ButtonAssist.CornerRadius="10"
+            Cursor="Arrow" FontSize="40" Background="#f5f4eb" BorderBrush="White" Margin="5" Height="100" Width="150" 
+                            IsCancel="True" Content="Nem" ToolTip="Nem"/>
                 </Grid>
 
             </Grid>

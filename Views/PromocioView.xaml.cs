@@ -32,6 +32,12 @@ namespace LibriSelfCheckoutPOS.Views
             window.KeyDown += HandleKeyPress;
         }
 
+        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            media.Position = TimeSpan.Zero;
+            media.Play();
+        }
+
         private void HandleKeyPress(object sender, KeyEventArgs e)
         {
             char c = '\0';

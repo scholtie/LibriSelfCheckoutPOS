@@ -87,14 +87,25 @@
                     <GridViewColumn Header="Value" Width="200" DisplayMemberBinding="{Binding productPrice}" />
                 </GridView>
             </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding productIsDeleted}"
+                      Value="true">
+                            <Setter Property="Background"
+                  Value="#FFF35252" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
         </ListView>
-        <Button Style="{StaticResource Libri-button}" Command="{Binding PayCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="4" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Command="{Binding HelpCommand}" Height="100" Margin="10 10 10 10" Grid.Column="0" Grid.Row="4" Background="#FFF7CADA" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="{Binding getHelp}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
-        <Button Style="{StaticResource Libri-button}" Command="{Binding LanguageCommand}" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="4" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
+        <Button Style="{StaticResource Libri-button}" Command="{Binding PayCommand}" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="4" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="BookAlphabet" HorizontalAlignment="Center" Width="50" Height="50"/>
@@ -137,7 +148,6 @@
                     </TextBlock>
                     <TextBlock Text="{Binding PriceSum}" FontSize="60" HorizontalAlignment="Right" VerticalAlignment="Stretch" FontWeight="Bold"/>
                     <TextBlock Text=" Ft" FontSize="60" HorizontalAlignment="Right" VerticalAlignment="Stretch" FontWeight="Bold"/>
-                    <materialDesign:PackIcon Kind="ChevronRight" VerticalAlignment="Center" Width="35" Height="35" />
                 </StackPanel>
             </Label>
         </TextBlock>

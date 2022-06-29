@@ -89,7 +89,7 @@ namespace KasszaWPF
                 adminbarCode += c;
             }
 
-            if ((e.Key == Key.Enter))
+            if ((e.Key == Key.Enter) && adminbarCode != "")
             {
                 adminBarCodeAkt = adminbarCode;
                 adminbarCode = "";

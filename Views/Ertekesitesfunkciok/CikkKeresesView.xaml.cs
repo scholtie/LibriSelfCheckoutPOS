@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static LibriSelfCheckoutPOS.Models.DataModels;
 
 namespace LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok
 {
@@ -24,5 +26,32 @@ namespace LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok
         {
             InitializeComponent();
         }
+
+        private void OnManipulationBoundaryFeedback(object sender, ManipulationBoundaryFeedbackEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            TextBox1.Focus();
+        }
+
+        //private void Textbox_Gotfocus(object sender, RoutedEventArgs e)
+        //{
+
+        //    Process p = new();
+        //    string windir = Environment.GetEnvironmentVariable("windir");
+
+        //    p.StartInfo.FileName = windir + @"\System32\cmd.exe";
+        //        p.StartInfo.Arguments = "/C " + windir + @"\System32\osk.exe";
+        //        p.StartInfo.CreateNoWindow = true;
+        //        p.StartInfo.UseShellExecute = false;
+
+
+        //        p.Start();
+        //        p.Dispose();
+        //}
     }
 }

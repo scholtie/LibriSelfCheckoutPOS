@@ -11,6 +11,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
     {
 
         public ICommand CancelCommand { get; }
+        public ICommand _nextCommand;
         public ICommand KezdoKepernyoCommand { get; }
 
         public event EventHandler ShutdownStarted;
@@ -23,6 +24,31 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         public const int WM_SYSCOMMAND = 0x0112;
         public const int SC_CLOSE = 0xF060;
+
+        public ICommand NextCommand
+        {
+            get
+            {
+                return _nextCommand ??= new CommandHandler(() => MyAction(), () => CanExecute);
+            }
+        }
+        public static bool CanExecute
+        {
+            get
+            {
+                // check if executing is allowed, i.e., validate, check if a process is running, etc. 
+                return true;
+            }
+        }
+
+        public void MyAction()
+        {
+            foreach (var process in Process.GetProcessesByName("osk"))
+            {
+                process.Kill();
+            }
+            KezdoKepernyoCommand.Execute(null);
+        }
 
         private void closeOnscreenKeyboard()
         {

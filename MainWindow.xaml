@@ -7,13 +7,11 @@
         xmlns:views="clr-namespace:LibriSelfCheckoutPOS.Views"
         xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
         mc:Ignorable="d"
-        WindowState="Maximized"
-        WindowStyle="None"
-        ResizeMode="NoResize"
         Title="LibriSelfCheckoutPOS" Height="1920" Width="1080"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:views1="clr-namespace:LibriSelfCheckoutPOS.Views.Penztarmuveletek" xmlns:views2="clr-namespace:LibriSelfCheckoutPOS.Views.NyitokepernyoMuveletek" xmlns:views3="clr-namespace:KasszaWPF" xmlns:views4="clr-namespace:LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
      TextElement.FontWeight="Regular"
+        
      TextElement.FontSize="13"
      TextOptions.TextFormattingMode="Ideal"
      TextOptions.TextRenderingMode="Auto"
@@ -84,6 +82,12 @@
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodels:CikkKeresesViewModel}">
                 <views4:CikkKeresesView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:ArFelulirasViewModel}">
+                <views4:ArFelulirasView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:EngedmenyadasViewModel}">
+                <views4:EngedmenyadasView/>
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodels:FinalViewModel}">
                 <views:FinalView/>

@@ -149,7 +149,7 @@ namespace LibriSelfCheckoutPOS.Views
             }
             else if (e.Key == Key.Enter)
             {
-                
+
                 var vm = (CheckOutListViewModel)this.DataContext;
                 if (vm != null)
                 {

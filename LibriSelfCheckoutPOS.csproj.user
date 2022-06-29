@@ -19,7 +19,13 @@
     <Compile Update="Views\CheckOutListView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Ertekesitesfunkciok\ArFelulirasView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Ertekesitesfunkciok\CikkKeresesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Ertekesitesfunkciok\EngedmenyadasView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\FinalView.xaml.cs">
@@ -105,7 +111,13 @@
     <Page Update="Views\CheckOutListView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Ertekesitesfunkciok\ArFelulirasView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Ertekesitesfunkciok\CikkKeresesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Ertekesitesfunkciok\EngedmenyadasView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\FinalView.xaml">

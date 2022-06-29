@@ -38,7 +38,7 @@
                 <StackPanel Orientation="Horizontal"
                             >
                     <materialDesign:PackIcon Kind="ChevronLeft" VerticalAlignment="Center" Width="35" Height="35" />
-                    <TextBlock Foreground="#FFE16868" Text="{DynamicResource login}"/>
+                    <TextBlock Foreground="#FFE16868" Text="{DynamicResource back}"/>
                     <!--<TextBlock Text="issza"/>-->
                 </StackPanel>
             </Label>

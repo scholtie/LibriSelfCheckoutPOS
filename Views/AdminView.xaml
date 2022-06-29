@@ -18,6 +18,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -62,11 +63,30 @@
             </Label>
         </Button>
         <Button
+            Command="{Binding KezdoCommand}"
+            Name="kezdoBtn"
+            Grid.Row="2"
+            Grid.Column="0"
+            Style="{StaticResource MaterialDesignRaisedLightButton}"
+            Height="200px"
+            VerticalAlignment="Top"
+            FontSize="60"
+            Margin="10 10 10 10"
+            materialDesign:ButtonAssist.CornerRadius="100"
+            Cursor="Arrow" Background="White" BorderBrush="White">
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#e1aa68" Text="K"/>
+                    <TextBlock Text="ezdőképernyő"/>
+                </StackPanel>
+            </Label>
+        </Button>
+        <Button
             Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
             VerticalAlignment="Bottom"
             Name="mégseBtn"
             Command="{Binding CancelCommand}"
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="0"
             Height="200px"
             FontSize="60"
@@ -87,7 +107,7 @@
             VerticalAlignment="Bottom"
             Name="bezarasBtn"
             Command="{Binding CloseCommand}"
-            Grid.Row="2"
+            Grid.Row="3"
             Grid.Column="0"
             Height="200px"
             FontSize="60"

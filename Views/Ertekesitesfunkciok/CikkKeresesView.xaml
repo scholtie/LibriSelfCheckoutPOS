@@ -15,19 +15,9 @@
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource PrimaryHueLightBrush}"
-        FontFamily="{DynamicResource MaterialDesignFont}" Initialized="UserControl_Initialized" Loaded="UserControl_Loaded">
-    <UserControl.Resources>
-        <Style  TargetType="{x:Type ListViewItem}">
-            <Style.Triggers>
-                <Trigger Property="ItemsControl.AlternationIndex" Value="0">
-                    <Setter Property="Background" Value="#19f39611"></Setter>
-                </Trigger>
-                <Trigger Property="ItemsControl.AlternationIndex" Value="1">
-                    <Setter Property="Background" Value="#19000000"></Setter>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </UserControl.Resources>
+        FontFamily="{DynamicResource MaterialDesignFont}"
+             Loaded="UserControl_Loaded" >
+    
     <Grid x:Name="grid1">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -60,12 +50,6 @@
                     HorizontalAlignment="Right"
                     VerticalAlignment="Center"
                    FontSize="40" Grid.ColumnSpan="2" Height="40">
-            <StackPanel  Orientation="Vertical" >
-                
-                <TextBlock x:Name="TextBlock0" TextAlignment="Right" Width="auto" Text="Alma"/>
-            </StackPanel>
-             
-           
         </TextBlock>
         <TextBlock  Margin="16,0,16,16"
                     HorizontalAlignment="Left"
@@ -73,7 +57,7 @@
                    FontSize="40" Grid.ColumnSpan="2" Height="50">
             <StackPanel  Orientation="Vertical" >
                 
-                <TextBox x:Name="TextBox1" TextAlignment="Right" Width="auto" TextChanged="TextBox1_TextChanged"/>
+                <TextBox CharacterCasing="Upper" Text="{Binding Path=Filter, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="TextBox1" Width="1000"/>
             </StackPanel>
 
 
@@ -92,40 +76,41 @@
                       Grid.Row="1"
                       Margin="16"
                       Grid.ColumnSpan="2">
-            <ListView Width="1020px" Margin="10,10,10,10" x:Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top" AlternationCount="2" FontSize="17">
+            <ListView
+                ManipulationBoundaryFeedback="OnManipulationBoundaryFeedback"
+                SelectedItem="{Binding SelectedProduct}"
+                ItemsSource="{Binding FelvettCikkek}"  Width="1020px" Margin="10,10,10,10" x:Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top" AlternationCount="2" FontSize="17">
                 <ListView.View>
-
                     <GridView>
-
-                        <GridViewColumn Header="#">
+                        <GridViewColumn DisplayMemberBinding="{Binding productId}" Header="#">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="1"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Termék">
+                        <GridViewColumn DisplayMemberBinding="{Binding productBarcode}" Header="#">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="1"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding productName}" Header="Termék">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="Könyv"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Mennyiség">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="3 db"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn Header="Cikkszám">
+                        <GridViewColumn DisplayMemberBinding="{Binding productArticleNumber}" Header="Cikkszám">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="233252"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Egységár" >
+                        <GridViewColumn DisplayMemberBinding="{Binding productUnitPrice}" Header="Egységár" >
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="5555 Ft"/>
@@ -135,11 +120,11 @@
                         <GridViewColumn Header="Engedmény">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <TextBlock Text="555 Ft"/>
+                                    <TextBlock Text="10 Ft"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Header="Érték">
+                        <GridViewColumn DisplayMemberBinding="{Binding productPrice}" Header="Érték">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="5000 Ft"/>
@@ -148,11 +133,30 @@
                         </GridViewColumn>
                     </GridView>
                 </ListView.View>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Style.Resources>
+                            <!-- Foreground for Selected ListViewItem -->
+                            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" 
+                                 Color="Red"/>
+                            <!-- Background for Selected ListViewItem -->
+                            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}"
+                                 Color="Red"/>
+                        </Style.Resources>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding productIsDeleted}"
+                      Value="true">
+                                <Setter Property="Background"
+                  Value="Red" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
             </ListView>
         </ScrollViewer>
         <Button
             IsEnabled="{Binding PaymentEnabled}"
-            Command="{Binding CancelCommand}"
+            Command="{Binding AddProductCommand}"
             VerticalAlignment="Center"
             Name="visszáruBtn"
             Grid.Row="3"
@@ -161,7 +165,7 @@
             FontSize="40"
             Margin="16,0,10,0"
             materialDesign:ButtonAssist.CornerRadius="30"
-            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White" Grid.ColumnSpan="2" Click="visszáruBtn_Click">
+            Cursor="Arrow" Background="#f5f4eb" BorderBrush="White" Grid.ColumnSpan="2">
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
@@ -174,7 +178,7 @@
         </Button>
         <Button
             IsEnabled="{Binding PaymentEnabled}"
-            Command="{Binding AdminCommand}"
+            Command="{Binding CancelCommand}"
             VerticalAlignment="Center"
             Name="cancelBtn"
             Grid.Row="4"

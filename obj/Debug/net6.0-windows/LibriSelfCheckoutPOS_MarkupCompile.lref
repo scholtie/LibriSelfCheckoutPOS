@@ -5,6 +5,10 @@ FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Admin
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\BejelentkezesView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\CheckOutListAdminView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\CheckOutListView.xaml;;
+FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Ertekesitesfunkciok\ArFelulirasView.xaml;;
+FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Ertekesitesfunkciok\CikkKeresesView.xaml;;
+FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Ertekesitesfunkciok\EngedmenyadasView.xaml;;
+FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\FinalView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\FizetesView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\KezdoKepernyoView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\NyitokepernyoMuveletek\BeallitasokView.xaml;;
@@ -22,6 +26,4 @@ FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Penzt
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\PromocioIdleView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\PromocioView.xaml;;
 FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\StartView.xaml;;
-FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\Ertekesitesfunkciok\CikkKeresesView.xaml;;
-FE:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\Views\FinalView.xaml;;
 

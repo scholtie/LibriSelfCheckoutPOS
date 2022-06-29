@@ -1,4 +1,5 @@
-﻿using LibriSelfCheckoutPOS.Commands;
+﻿using KasszaWPF;
+using LibriSelfCheckoutPOS.Commands;
 using LibriSelfCheckoutPOS.Services;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
         private double priceSum = App.BookList.Where(c => c.productIsDeleted == false).Select(c => c.productPrice).Sum();
         private ICommand _languageCommand;
         public ICommand _payCommand;
+        public ICommand _helpCommand;
         private bool canChange = true;
 
         public ICommand PayCommand
@@ -26,6 +28,13 @@ namespace LibriSelfCheckoutPOS.ViewModels
             get
             {
                 return _payCommand ??= new CommandHandler(() => PayAndEmptyList(), () => CanExecute);
+            }
+        }
+        public ICommand HelpCommand
+        {
+            get
+            {
+                return _helpCommand ??= new CommandHandler(() => HelpAction(), () => CanExecute);
             }
         }
 
@@ -67,6 +76,18 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
         }
 
+        public void HelpAction()
+        {
+            App.IsMessageBoxOpen = true;
+            bool? Result = new MessageBoxCustom("Kérjük várjon munkatársunk megérkezéséig", MessageType.Warning, MessageButtons.Alert).ShowDialog();
+
+            if (Result.Value)
+            {
+                AdminCommand.Execute(null);
+                App.IsMessageBoxOpen = false;
+            }
+        }
+
         public double PriceSum
         {
             get { return priceSum; }
@@ -79,10 +100,12 @@ namespace LibriSelfCheckoutPOS.ViewModels
         public string getHelp = "Segítségkérés";
         public ICommand CancelCommand { get; }
         public ICommand SuccessCommand { get; }
-        public FizetesViewModel(NavigationService cancelNavigationService, NavigationService successNavigationService)
+        public ICommand AdminCommand { get; }
+        public FizetesViewModel(NavigationService cancelNavigationService, NavigationService successNavigationService, NavigationService adminNavigationService)
         {
             CancelCommand = new NavigateCommand(cancelNavigationService);
             SuccessCommand = new NavigateCommand(successNavigationService);
+            AdminCommand = new NavigateCommand(adminNavigationService);
         }
     }
 }

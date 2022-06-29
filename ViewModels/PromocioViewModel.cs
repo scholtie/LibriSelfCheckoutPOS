@@ -24,6 +24,16 @@ namespace LibriSelfCheckoutPOS.ViewModels
         public PromocioViewModel(NavigationService checkoutViewNavigationService)
         {
             CancelCommand = new NavigateCommand(checkoutViewNavigationService);
+            App.PassedScannedProduct = new ScannedProduct()
+            {
+                productId = 0,
+                productName = "",
+                productArticleNumber = 0,
+                productUnitPrice = 0,
+                productDiscount = 10,
+                productPrice = 0,
+                productIsDeleted = false
+            };
         }
 
         int counter = 0;

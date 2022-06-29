@@ -32,7 +32,7 @@
         </StackPanel>
 
         <Button
-            Command="{Binding KezdoKepernyoCommand}"
+            Command="{Binding NextCommand}"
             Name="visszáruBtn"
             Width="500px"
             HorizontalAlignment="Right"

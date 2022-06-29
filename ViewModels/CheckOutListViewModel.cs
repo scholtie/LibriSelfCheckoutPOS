@@ -3,13 +3,11 @@ using LibriSelfCheckoutPOS.Commands;
 using LibriSelfCheckoutPOS.Services;
 using log4net;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Input;
 using static LibriSelfCheckoutPOS.Models.DataModels;
@@ -27,7 +25,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
         public ObservableCollection<ScannedProduct> products = new ObservableCollection<ScannedProduct>();
         private ICommand _clickCommand;
         public ICommand _helpCommand;
-        private bool canPay = true;
+        public bool canPay = true;
         //ILog log = LogManager.GetLogger(typeof(App));
         //private string barcode;
         //private string pressedKeys;
@@ -35,15 +33,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
         //private Boolean isFound = false;
         //int checkoutQuantity;
         //ObservableCollection<ScannedProduct> products = new ObservableCollection<ScannedProduct>();
-        public Boolean PaymentEnabled
-        {
-            get { return canPay; }
-            set
-            {
-                canPay = value;
-                OnPropertyChanged("ButtonEnabled");
-            }
-        }
+
 
         public ICommand ClickCommand
         {
@@ -84,7 +74,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
             p.Dispose();
 
         }
-        
+
         public void HelpAction()
         {
             App.IsMessageBoxOpen = true;
@@ -93,7 +83,7 @@ namespace LibriSelfCheckoutPOS.ViewModels
             if (Result.Value)
             {
                 AdminCommand.Execute(null);
-                App.IsMessageBoxOpen=false;
+                App.IsMessageBoxOpen = false;
             }
         }
 
@@ -105,6 +95,14 @@ namespace LibriSelfCheckoutPOS.ViewModels
             AdminCommand = new NavigateCommand(adminViewNavigationService);
             FizetesCommand = new NavigateCommand(fizetesViewNavigationService);
             IdleCommand = new NavigateCommand(promotionIdleViewNavigationService);
+            if (ProductPriceCurrent == 0 || ProductArticleNumberCurrent == 0)
+            {
+                Visibility = Visibility.Hidden;
+            }
+            if (PriceSum != 0)
+            {
+                canPay = true;
+            }
         }
 
         int counter = 0;
@@ -132,51 +130,40 @@ namespace LibriSelfCheckoutPOS.ViewModels
                 //string colPrice = line.Split(';')[7];
                 if (col == barcode)
                 {
-                    if (col == "5901299910948" || col == "5999884034445" || col == "1")
+                    var split = line.Split(';');
+                    Visibility = Visibility.Visible;
+                    isFound = true;
+                    FelvettCikkek.Add(new ScannedProduct()
                     {
-                        AdminCommand.Execute(null);
-                        isFound = true;
-                    }
-                    else
+                        productId = counter,
+                        productBarcode = split[1].ToString(),
+                        productName = split[3].ToString(),
+                        productArticleNumber = int.Parse(split[0]),
+                        productUnitPrice = double.Parse(split[7]),
+                        productDiscount = 10,
+                        productPrice = double.Parse(split[7]) - 10,
+                        productIsDeleted = false
+                    });
+                    App.BookList.Add(new ScannedProduct()
                     {
-                        isFound = true;
-                        FelvettCikkek.Add(new ScannedProduct()
-                        {
-                            productId = counter,
-                            productName = line.Split(';')[3].ToString(),
-                            productArticleNumber = int.Parse(line.Split(';')[0]),
-                            productUnitPrice = double.Parse(line.Split(';')[7]),
-                            productDiscount = 10,
-                            productPrice = double.Parse(line.Split(';')[7]) - 10,
-                            productIsDeleted = false
-                        });
-                        App.BookList.Add(new ScannedProduct()
-                        {
-                            productId = counter,
-                            productName = line.Split(';')[3].ToString(),
-                            productArticleNumber = int.Parse(line.Split(';')[0]),
-                            productUnitPrice = double.Parse(line.Split(';')[7]),
-                            productDiscount = 10,
-                            productPrice = double.Parse(line.Split(';')[7]) - 10,
-                            productIsDeleted = false
-                        });
-                        ProductNameCurrent = line.Split(';')[3].ToString();
-                        CheckoutQuantity += 1;
-                        ProductArticleNumberCurrent = int.Parse(line.Split(';')[0]);
-                        ProductPriceCurrent = double.Parse(line.Split(';')[7]) - 10;
-                        //App.OsszAr.Add(counter, double.Parse(line.Split(';')[7]) - 10);
-                        var res = App.BookList.Where(c => c.productIsDeleted == false);
-                        //PriceSum = App.OsszAr.Values.Sum();
-                        PriceSum = res.Select(c => c.productPrice).Sum();
-                        CheckoutQuantity = App.BookList.Where(c => c.productIsDeleted == false).Count();
-                        //ProductList = App.OsszesCikk.TryGe;
-                        //var keys = new List<ScannedProduct>(App.FelvettCikkek.Keys)
-                        //ProductList.Add(keys);
-                        //log.Debug(ProductList);
-                        log.Debug(App.BookList);
-                        counter += 1;
-                        //log.Debug(App.OsszAr);
-                    }
+                        productId = counter,
+                        productBarcode = split[1].ToString(),
+                        productName = split[3].ToString(),
+                        productArticleNumber = int.Parse(split[0]),
+                        productUnitPrice = double.Parse(split[7]),
+                        productDiscount = 10,
+                        productPrice = double.Parse(split[7]) - 10,
+                        productIsDeleted = false
+                    });
+                    ProductNameCurrent = split[3].ToString();
+                    CheckoutQuantity += 1;
+                    ProductArticleNumberCurrent = int.Parse(split[0]);
+                    ProductPriceCurrent = double.Parse(split[7]) - 10;
+                    var res = App.BookList.Where(c => c.productIsDeleted == false);
+                    PriceSum = res.Select(c => c.productPrice).Sum();
+                    CheckoutQuantity = App.BookList.Where(c => c.productIsDeleted == false).Count();
+                    log.Debug(App.BookList);
+                    counter += 1;
                 }
 
             }
@@ -192,6 +179,16 @@ namespace LibriSelfCheckoutPOS.ViewModels
 
             file.Close();
 
+        }
+
+        public bool PaymentEnabled
+        {
+            get { return canPay; }
+            set
+            {
+                canPay = value;
+                RaisePropertyChanged("ButtonEnabled");
+            }
         }
 
         private string productNameCurrent = App.PassedScannedProduct.productName;
@@ -252,6 +249,21 @@ namespace LibriSelfCheckoutPOS.ViewModels
                 PropertyChanged(this, new PropertyChangedEventArgs(propName));
         }
         public event PropertyChangedEventHandler PropertyChanged;
+
+        private Visibility visibility;
+        public Visibility Visibility
+        {
+            get
+            {
+                return visibility;
+            }
+            set
+            {
+                visibility = value;
+
+                RaisePropertyChanged("Visibility");
+            }
+        }
 
         //private void txtAssetTag_KeyPress(object sender, KeyEventArgs e)
 

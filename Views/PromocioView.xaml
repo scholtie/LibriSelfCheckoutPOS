@@ -41,7 +41,7 @@
                              Grid.ColumnSpan="3"
                                  Grid.Row="2">
 
-            <MediaElement x:Name="demovideo" Height="auto" Width="auto" Source="1234.avi" IsMuted="True" LoadedBehavior="Play" Stretch="Uniform" ScrubbingEnabled="True" Visibility="Visible" HorizontalAlignment="Center"/>
+            <MediaElement x:Name="media" MediaEnded="MediaElement_MediaEnded" Height="auto" Width="auto" Source="1234.avi" IsMuted="True" LoadedBehavior="Play" UnloadedBehavior="Manual" Stretch="Uniform" ScrubbingEnabled="True" Visibility="Visible" HorizontalAlignment="Center"/>
         </materialDesign:Card>
 
 

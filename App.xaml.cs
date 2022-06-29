@@ -26,9 +26,11 @@ namespace LibriSelfCheckoutPOS
             _navigationStore = new NavigationStore();
         }
         //public static Dictionary<int, ScannedProduct> FelvettCikkek = new Dictionary<int, ScannedProduct>();
-        public static Dictionary<int, AllProducts> OsszesCikk = new Dictionary<int, AllProducts>();
+        //public static Dictionary<int, ScannedProduct> OsszesCikk = new Dictionary<int, ScannedProduct>();
         //public static Dictionary<int, double> OsszAr = new Dictionary<int, double>();
         public static ObservableCollection<ScannedProduct> BookList { get; set; } =
+            new ObservableCollection<ScannedProduct>();
+        public static ObservableCollection<ScannedProduct> OsszesCikk { get; set; } =
             new ObservableCollection<ScannedProduct>();
         public static User User { get; set; } = new User();
         public static bool IsMessageBoxOpen { get; set; } = false;
@@ -61,13 +63,14 @@ namespace LibriSelfCheckoutPOS
                 {
                     string[] arr = line.Split(';');
 
-                    OsszesCikk.Add(counter, new AllProducts { 
-                        Id= counter, 
-                        Name= line.Split(';')[3].ToString(), 
-                        ArticleNumber= int.Parse(line.Split(';')[0]), 
-                        Price= double.Parse(line.Split(';')[7]) - 10, 
-                        UnitPrice= double.Parse(line.Split(';')[7]), 
-                        Discount= 10});
+                    OsszesCikk.Add(new ScannedProduct { 
+                        productId= counter,
+                        productBarcode = line.Split(';')[1].ToString(),
+                        productName = line.Split(';')[3].ToString(),
+                        productArticleNumber = int.Parse(line.Split(';')[0]),
+                        productPrice = double.Parse(line.Split(';')[7]) - 10,
+                        productUnitPrice = double.Parse(line.Split(';')[7]),
+                        productDiscount = 10});
                     counter++;
                     // add the key and whatever it 
                     // can read next as the value
@@ -110,13 +113,17 @@ namespace LibriSelfCheckoutPOS
             return new AdminViewModel(
                 new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel),
                 new NavigationService(_navigationStore, CreateCheckOutListAdminViewModel),
-                new NavigationService(_navigationStore, CreatePenztarmuveletekAdminViewModel));
+                new NavigationService(_navigationStore, CreatePenztarmuveletekAdminViewModel),
+                new NavigationService(_navigationStore, CreateKezdoKepernyoViewModel));
         }
 
         private CheckOutListAdminViewModel CreateCheckOutListAdminViewModel()
         {
             return new CheckOutListAdminViewModel(new NavigationService(_navigationStore, CreateAdminViewModel),
-                new NavigationService(_navigationStore, CreateCikkKeresesViewModel));
+                new NavigationService(_navigationStore, CreateCikkKeresesViewModel), new NavigationService(_navigationStore, CreateCheckOutListAdminViewModel),
+                new NavigationService(_navigationStore, CreatePromocioViewModel),
+                new NavigationService(_navigationStore, CreateArFelulirasViewModel),
+                new NavigationService(_navigationStore, CreateEngedmenyadasViewModel));
         }
 
         private BejelentkezesViewModel CreateBejelentkezesViewModel()
@@ -182,7 +189,8 @@ namespace LibriSelfCheckoutPOS
         private FizetesViewModel CreateFizetesViewModel()
         {
             return new FizetesViewModel(new NavigationService(_navigationStore, CreateMakeCheckOutListViewModel),
-                new NavigationService(_navigationStore, CreateFinalViewModel));
+                new NavigationService(_navigationStore, CreateFinalViewModel),
+                new NavigationService(_navigationStore, CreateAdminViewModel));
         }
 
         private PromocioIdleViewModel CreatePromocioIdleViewModel()
@@ -223,6 +231,16 @@ namespace LibriSelfCheckoutPOS
         private FinalViewModel CreateFinalViewModel()
         {
             return new FinalViewModel(new NavigationService(_navigationStore, CreatePromocioViewModel));
+        }
+
+        private ArFelulirasViewModel CreateArFelulirasViewModel()
+        {
+            return new ArFelulirasViewModel(new NavigationService(_navigationStore, CreateCheckOutListAdminViewModel));
+        }
+
+        private EngedmenyadasViewModel CreateEngedmenyadasViewModel()
+        {
+            return new EngedmenyadasViewModel(new NavigationService(_navigationStore, CreateCheckOutListAdminViewModel));
         }
     }
 }
