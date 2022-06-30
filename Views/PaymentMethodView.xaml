@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+             xmlns:p="clr-namespace:LibriSelfCheckoutPOS.Resources"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -33,19 +34,19 @@
         </Grid.ColumnDefinitions>
         <Button Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="0" Grid.Row="0" Background="#f5f4eb" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
-                <TextBlock Text="Bankkártya" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock Text="{x:Static p:Resources.Card}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="CreditCard" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
         <Button IsEnabled="False" Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="1" Grid.Row="0" Background="#FF373737" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
-                <TextBlock Text="Ajándékkártya" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock Text="{x:Static p:Resources.GiftCard}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="WalletGiftcard" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
         <Button IsEnabled="False" Style="{StaticResource Libri-button}" Height="150" Margin="10 10 10 10" Grid.Column="3" Grid.Row="0" Background="#FF373737" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
-                <TextBlock Text="Pontbeváltás" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock Text="{x:Static p:Resources.PointExchange}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="TicketPercentOutline" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>

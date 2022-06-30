@@ -111,7 +111,7 @@ namespace KasszaWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;V1.0.0.0;component/messageboxcustom.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;component/messageboxcustom.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MessageBoxCustom.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibriSelfCheckoutPOS"
+             xmlns:p="clr-namespace:LibriSelfCheckoutPOS.Resources"
         mc:Ignorable="d"
         xmlns:controls="clr-namespace:LibriSelfCheckoutPOS.Views"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -137,48 +138,11 @@
                 ItemsSource="{Binding FelvettCikkek}"  Width="1020px" Margin="10,10,10,10" x:Name="ListView1" HorizontalAlignment="Center" VerticalAlignment="Top" AlternationCount="2">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn DisplayMemberBinding="{Binding productId}" Header="#">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="1"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding productName}" Header="Termék">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="Könyv"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding productArticleNumber}" Header="Cikkszám">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="233252"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding productUnitPrice}" Header="Egységár" >
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5555 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding productDiscount}" Header="Engedmény">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="10 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
-                        <GridViewColumn DisplayMemberBinding="{Binding productPrice}" Header="Érték">
-                            <GridViewColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="5000 Ft"/>
-                                </DataTemplate>
-                            </GridViewColumn.CellTemplate>
-                        </GridViewColumn>
+                        <GridViewColumn Header="{x:Static p:Resources.Product}" Width="300" DisplayMemberBinding="{Binding productName}" />
+                        <GridViewColumn Header="Nr" Width="120" DisplayMemberBinding="{Binding productArticleNumber}" />
+                        <GridViewColumn Header="{x:Static p:Resources.UnitPrice}" Width="200" DisplayMemberBinding="{Binding productUnitPrice}" />
+                        <GridViewColumn Header="{x:Static p:Resources.Discount}" Width="200" DisplayMemberBinding="{Binding productDiscount}" />
+                        <GridViewColumn Header="{x:Static p:Resources.Value}" Width="200" DisplayMemberBinding="{Binding productPrice}" />
                     </GridView>
                 </ListView.View>
                 <ListView.Resources>
@@ -219,7 +183,7 @@
             </StackPanel>-->
             <Label>
                 <StackPanel>
-                    <TextBlock Text="{DynamicResource help}" HorizontalAlignment="Center" FontSize="18"/>
+                    <TextBlock Text="{x:Static p:Resources.Help}" HorizontalAlignment="Center" FontSize="18"/>
                     <materialDesign:PackIcon Kind="Help" HorizontalAlignment="Center" Width="50" Height="50"/>
                 </StackPanel>
             </Label>
@@ -227,7 +191,7 @@
         <Button Focusable="False" Style="{StaticResource Libri-button}" Click="closeWindow" Height="100" Margin="10 10 10 10" Grid.Column="1" Grid.Row="3" Background="#FFD4D4D4" materialDesign:ButtonAssist.CornerRadius="30">
             <StackPanel>
                 <!--<TextBlock Text="Nyelvválasztó" HorizontalAlignment="Center" FontSize="18"/>-->
-                <TextBlock Text="{DynamicResource language}" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock Text="{x:Static p:Resources.Language}" HorizontalAlignment="Center" FontSize="18"/>
                 <materialDesign:PackIcon Kind="BookAlphabet" HorizontalAlignment="Center" Width="50" Height="50"/>
             </StackPanel>
         </Button>
@@ -259,7 +223,7 @@
             <Label>
                 <StackPanel Orientation="Horizontal"
                             >
-                    <TextBlock FontSize="30" Text="{DynamicResource pay}">
+                    <TextBlock FontSize="30" Text="{x:Static p:Resources.Pay}">
                         <TextBlock.TextEffects>
                             <TextEffect PositionStart="0" PositionCount="1" Foreground="#e1aa68"/>
                         </TextBlock.TextEffects>

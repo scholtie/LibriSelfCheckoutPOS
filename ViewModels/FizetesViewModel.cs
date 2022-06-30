@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -71,10 +72,10 @@ namespace LibriSelfCheckoutPOS.ViewModels
         public static void MyAction()
         {
             //Process.Start("osk.exe");
-            var instance = new MainWindow();
-            instance.SetLanguageDictionary("en");
-
+            //var instance = new App();
+            //instance.SetLanguageDictionary("hu");
         }
+
 
         public void HelpAction()
         {
@@ -106,6 +107,37 @@ namespace LibriSelfCheckoutPOS.ViewModels
             CancelCommand = new NavigateCommand(cancelNavigationService);
             SuccessCommand = new NavigateCommand(successNavigationService);
             AdminCommand = new NavigateCommand(adminNavigationService);
+        }
+
+        public static event EventHandler LanguageChanged;
+
+        protected virtual void OnLanguageChanged(EventArgs e)
+        {
+            LanguageChanged?.Invoke(this, e);
+        }
+
+        public ICommand EnglishLanguageCmd { get { return new RelayCommand(p => SetLanguageToEnglish()); } }
+
+        public ICommand HungarianLanguageCmd { get { return new RelayCommand(p => SetLanguageToHungarian()); } }
+
+        private void SetLanguageToEnglish()
+        {
+            AppSettings.AppLanguage = "English";
+            OnLanguageChanged(EventArgs.Empty);
+            UpdateLocalizedElements();
+            AdminCommand.Execute(null);
+        }
+
+        private void SetLanguageToHungarian()
+        {
+            AppSettings.AppLanguage = "Hungarian";
+            OnLanguageChanged(EventArgs.Empty);
+            UpdateLocalizedElements();
+        }
+
+        private void UpdateLocalizedElements()
+        {
+            LocalizationProvider.UpdateAllObjects();
         }
     }
 }

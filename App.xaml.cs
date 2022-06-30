@@ -2,6 +2,7 @@
 using LibriSelfCheckoutPOS.Stores;
 using LibriSelfCheckoutPOS.ViewModels;
 using log4net;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -36,6 +37,8 @@ namespace LibriSelfCheckoutPOS
         public static bool IsMessageBoxOpen { get; set; } = false;
         public static ScannedProduct PassedScannedProduct { get; set; } = new ScannedProduct();
 
+        
+
 
         protected override void OnStartup(StartupEventArgs e)
         {
@@ -45,6 +48,8 @@ namespace LibriSelfCheckoutPOS
             {
                 DataContext = new MainViewModel(_navigationStore)
             };
+
+            SetLanguageDictionary("en");
             MainWindow.Show();
 
             base.OnStartup(e);
@@ -78,6 +83,31 @@ namespace LibriSelfCheckoutPOS
                 }
             }
             //log.Debug(OsszesCikk);
+        }
+
+        public void SetLanguageDictionary(String language)
+        {
+            ResourceDictionary dict = new ResourceDictionary();
+            switch (language)
+            {
+                case "hu":
+                    dict.Source = new Uri("..\\Resources\\StringResources.xaml",
+                                  UriKind.Relative);
+                    break;
+                case "de":
+                    dict.Source = new Uri("..\\Resources\\StringResources.de.xaml",
+                                       UriKind.Relative);
+                    break;
+                case "en":
+                    dict.Source = new Uri("..\\Resources\\StringResource.en.xaml",
+                                       UriKind.Relative);
+                    break;
+                default:
+                    dict.Source = new Uri("..\\Resources\\StringResource.en.xaml",
+                                      UriKind.Relative);
+                    break;
+            }
+            this.Resources.MergedDictionaries.Add(dict);
         }
 
 

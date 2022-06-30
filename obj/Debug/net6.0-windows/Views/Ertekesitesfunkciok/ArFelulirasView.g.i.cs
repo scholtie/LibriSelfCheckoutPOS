@@ -97,8 +97,7 @@ namespace LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;V1.0.0.0;component/views/ertekesitesfunkciok/arfelulirasvie" +
-                    "w.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;component/views/ertekesitesfunkciok/arfelulirasview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Ertekesitesfunkciok\ArFelulirasView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

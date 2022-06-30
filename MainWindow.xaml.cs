@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibriSelfCheckoutPOS.Commands;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -26,35 +27,9 @@ namespace LibriSelfCheckoutPOS
         public MainWindow()
         {
             InitializeComponent();
-            SetLanguageDictionary("hu");
             //Topmost = true;
-        }
-
-        
-
-        public void SetLanguageDictionary(String language)
-        {
-            ResourceDictionary dict = new ResourceDictionary();
-            switch (language)
-            {
-                case "hu":
-                    dict.Source = new Uri("..\\Resources\\StringResources.xaml",
-                                  UriKind.Relative);
-                    break;
-                case "de":
-                    dict.Source = new Uri("..\\Resources\\StringResources.de.xaml",
-                                       UriKind.Relative);
-                    break;
-                case "en":
-                    dict.Source = new Uri("..\\Resources\\StringResource.en.xaml",
-                                       UriKind.Relative);
-                    break;
-                default:
-                    dict.Source = new Uri("..\\Resources\\StringResource.en.xaml",
-                                      UriKind.Relative);
-                    break;
-            }
-            this.Resources.MergedDictionaries.Add(dict);
+            //Thread.CurrentThread.CurrentUICulture =
+            //new System.Globalization.CultureInfo("HU-hu");
         }
     }
 }

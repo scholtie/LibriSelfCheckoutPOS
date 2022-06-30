@@ -97,8 +97,7 @@ namespace LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;V1.0.0.0;component/views/ertekesitesfunkciok/engedmenyadasv" +
-                    "iew.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LibriSelfCheckoutPOS;component/views/ertekesitesfunkciok/engedmenyadasview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Ertekesitesfunkciok\EngedmenyadasView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Visual Studio\Projects\LibriSelfCheckoutPOS\LibriSelfCheckoutPOS\App.xaml
 311858264322
 4297717406
-61-368687795
+65-2089660944
 213-1639326487
 MainWindow.xaml;MessageBoxCustom.xaml;Resources\StringResource.de.xaml;Resources\StringResource.en.xaml;Resources\StringResources.xaml;Templates\Libri\style.xaml;Views\AdminView.xaml;Views\BejelentkezesView.xaml;Views\CheckOutListAdminView.xaml;Views\CheckOutListView.xaml;Views\Ertekesitesfunkciok\ArFelulirasView.xaml;Views\Ertekesitesfunkciok\CikkKeresesView.xaml;Views\Ertekesitesfunkciok\EngedmenyadasView.xaml;Views\FinalView.xaml;Views\FizetesView.xaml;Views\KezdoKepernyoView.xaml;Views\NyitokepernyoMuveletek\BeallitasokView.xaml;Views\NyitokepernyoMuveletek\EszkozokView.xaml;Views\NyitokepernyoMuveletek\NapnyitasView.xaml;Views\NyitokepernyoMuveletek\NapzarasView.xaml;Views\PaymentMethodView.xaml;Views\PenztarmuveletekAdminView.xaml;Views\Penztarmuveletek\BeallitasokView.xaml;Views\Penztarmuveletek\BefizetesView.xaml;Views\Penztarmuveletek\BizonylatokView.xaml;Views\Penztarmuveletek\HangeroszabalyzoView.xaml;Views\Penztarmuveletek\KifizetesView.xaml;Views\Penztarmuveletek\RovancsView.xaml;Views\PromocioIdleView.xaml;Views\PromocioView.xaml;Views\StartView.xaml;
 

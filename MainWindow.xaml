@@ -11,7 +11,6 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:views1="clr-namespace:LibriSelfCheckoutPOS.Views.Penztarmuveletek" xmlns:views2="clr-namespace:LibriSelfCheckoutPOS.Views.NyitokepernyoMuveletek" xmlns:views3="clr-namespace:KasszaWPF" xmlns:views4="clr-namespace:LibriSelfCheckoutPOS.Views.Ertekesitesfunkciok"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
      TextElement.FontWeight="Regular"
-        
      TextElement.FontSize="13"
      TextOptions.TextFormattingMode="Ideal"
      TextOptions.TextRenderingMode="Auto"
